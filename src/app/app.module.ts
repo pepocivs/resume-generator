@@ -10,7 +10,10 @@ import { TimelineComponent } from './components/timeline/timeline.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProfileHeaderComponent,
+    StructureComponent,
+    TimelineComponent,
   ],
   imports: [
     BrowserModule

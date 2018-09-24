@@ -1,5 +1,16 @@
 <ul class="breadcrumb">
-  <!-- <li *ngFor="let element of timeLineArray; let i = index;"> -->
-    <li>Timeline element</li>
-  <!-- </li> -->
+  <li *ngFor="let element of timeLineArray; let i = index;">
+    year: {{ element.year }}
+    <br />
+    title: {{ element.title }}
+    <br />
+    location: {{ element.location }}
+    <br />
+    highLight: {{ element.highLight }}
+    <br />
+    duration: {{ element.duration }}
+    <br />
+    icon: {{ element.icon }}
+    <br />
+  </li>
 </ul>

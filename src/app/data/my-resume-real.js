@@ -1,4 +1,4 @@
-{
+export default {
   "fullName": "Jorge Martín",
   "title": "IT Developer",
   "picture": "https://en.gravatar.com/userimage/100835827/ab578160ae63ce48b3ec603fe41a3d7b.jpg?size=600",

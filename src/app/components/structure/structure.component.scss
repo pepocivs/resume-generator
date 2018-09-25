@@ -1,0 +1,20 @@
+#topBar, #bottomBar {
+  background-color: #458299;
+  height: 20px;
+  width: 100%;
+  position: absolute;
+}
+#topBar {
+  top: 0px;
+}
+#bottomBar {
+  bottom: 0px;
+}
+#rightBg {
+  background-color: #E7F0F5;
+  width: 33.33%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}

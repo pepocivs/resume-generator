@@ -1,16 +1,21 @@
-<ul class="breadcrumb">
-  <li *ngFor="let element of timeLineArray; let i = index;">
-    year: {{ element.year }}
+<h1>{{ title }}</h1>
+<div *ngFor="let element of timeLineArray; let i = index;" class="timeline">
+  <div class="timeline-left">
+    <div class="year">
+      {{ element.year }}
+    </div>
+    <div class="bullet">
+      <img src="./assets/{{ element.icon }}.svg" />
+    </div>
+  </div>
+  <div class="separator"></div>
+  <div class="timeline-right">
+    <span class="title">{{ element.title }}</span>
     <br />
-    title: {{ element.title }}
+    <span class="subtitle">{{ element.location }}</span>
     <br />
-    location: {{ element.location }}
+    <span class="small">{{ element.highLight }}</span>
     <br />
-    highLight: {{ element.highLight }}
-    <br />
-    duration: {{ element.duration }}
-    <br />
-    icon: {{ element.icon }}
-    <br />
-  </li>
-</ul>
+    <span class="small color">{{ element.duration }}</span>
+  </div>
+</div>

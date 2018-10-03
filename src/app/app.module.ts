@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ProfileHeaderComponent } from './components/profile-header/profile-header.component';
 import { StructureComponent } from './components/structure/structure.component';
 import { TimelineComponent } from './components/timeline/timeline.component';
+import { InfoBlockComponent } from './components/info-block/info-block.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { TimelineComponent } from './components/timeline/timeline.component';
     ProfileHeaderComponent,
     StructureComponent,
     TimelineComponent,
+    InfoBlockComponent
   ],
   imports: [
     BrowserModule

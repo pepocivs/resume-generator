@@ -1,0 +1,23 @@
+<div class="info-block">
+  <h1>{{ title }}</h1>
+  <div class="row-content">
+    <div *ngFor="let key of objectKeys(info)">
+      <div class="row">
+        <div *ngIf="percent; then thenBlock else elseBlock"></div>
+        <ng-template #thenBlock>
+          <div class="title big">{{ info[key].name }}</div>
+          <div class="value big">
+            <div class="percent-bar">
+              {{ info[key].percent }}%
+            </div>
+          </div>
+        </ng-template>
+        <ng-template #elseBlock>
+          <div class="title">{{ keysTranslator[key] }}</div>
+          <div class="value">{{ info[key] }}</div>
+        </ng-template>
+      </div>
+      <br />
+    </div>
+  </div>
+</div>

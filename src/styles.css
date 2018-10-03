@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+/* General */
+@font-face {
+  font-family: Monserrat;
+  src: url('./assets/fonts/Montserrat-Regular.ttf');
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Monserrat;
+}
+h1, h2 {
+  letter-spacing: 5px;
+}
+h1 {
+  text-transform: uppercase;
+  border-bottom: 1px dotted;
+  font-size: 20px;
+  font-weight: bold;
+}
+h2 {
+  font-family: Monserrat;
+}
+.resume {
+  color: #5B768C;
+  font-family: Monserrat;
+}
+.resume-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.resume-column {
+  min-width: 31%;
+  margin: 17px;
+  flex-grow: 0;
+}

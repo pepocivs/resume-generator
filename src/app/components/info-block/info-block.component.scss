@@ -1,0 +1,31 @@
+.info-block {
+  clear: both;
+}
+.row {
+  border-bottom: 1px dotted #458299;
+  height: 8px;
+  div {
+    color: #333333;
+  }
+  .title {
+    font-weight: bolder;
+    width: 40%;
+    position: relative;
+    top: -8px;
+  }
+  .value {
+    float: right;
+    width: 60%;
+    position: relative;
+    top: -24px;
+  }
+  .title, .value {
+    font-size: 12px;
+  }
+  .title.big {
+    width: 70%;
+  }
+  .value.big {
+    width: 30%;
+  }
+}

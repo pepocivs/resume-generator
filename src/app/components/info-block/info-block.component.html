@@ -1,0 +1,37 @@
+<div class="info-block">
+  <h1>{{ title }}</h1>
+  <div class="row-content">
+    <div *ngFor="let key of objectKeys(info)">
+      <div class="row">
+        <div *ngIf="percent; then isPercent else isNotPercent"></div>
+        <ng-template #isPercent>
+          <div *ngIf="info[key].level; then hasLevel else hasntLevel"></div>
+          <ng-template #hasLevel>
+            <div class="title three">{{ info[key].name }}</div>
+            <div class="value three">
+              {{ info[key].level }}
+            </div>
+            <div class="value three">
+              <div class="percent-bar">
+                <div class="filled-bar" [style.width.%]="info[key].percent">&nbsp;</div>
+              </div>
+            </div>
+          </ng-template>
+          <ng-template #hasntLevel>
+            <div class="title big">{{ info[key].name }}</div>
+            <div class="value big">
+              <div class="percent-bar">
+                <div class="filled-bar" [style.width.%]="info[key].percent">&nbsp;</div>
+              </div>
+            </div>
+          </ng-template>
+        </ng-template>
+        <ng-template #isNotPercent>
+          <div class="title bold">{{ keysTranslator[key] }}</div>
+          <div class="value">{{ info[key] }}</div>
+        </ng-template>
+      </div>
+      <br />
+    </div>
+  </div>
+</div>

@@ -1,0 +1,50 @@
+.info-block {
+  clear: both;
+}
+.row {
+  border-bottom: 1px dotted #458299;
+  height: 8px;
+  div {
+    color: #333333;
+  }
+  .title {
+    width: 40%;
+    position: relative;
+    top: -8px;
+  }
+  .title.bold {
+    font-weight: bold;
+  }
+  .value {
+    float: right;
+    width: 60%;
+    position: relative;
+    top: -24px;
+  }
+  .title, .value {
+    font-size: 11px;
+  }
+  .title.big {
+    width: 60%;
+  }
+  .value.big {
+    width: 40%;
+  }
+  .title.three {
+    width: 40%;
+  }
+  .value.three {
+    width: 30%;
+    margin-left: 20px;
+  }
+}
+.percent-bar {
+  background-color: #EEEEEE;
+  height: 10px;
+  margin-top: 3px;
+  .filled-bar {
+    background-color: #5B768C;
+    height: 10px;
+    margin-top: 3px;
+  }
+}

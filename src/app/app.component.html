@@ -1,15 +1,23 @@
-<div className="resume">
-  <resume-structure></resume-structure>
-  <profile-header headerData={resumeData}></profile-header>
-  <div className="resume-content">
-    <div className="resume-column">
-      <resume-timeline timeLineArray={resumeData.timeline.education}></resume-timeline>
+<div class="resume">
+  <resume-structure [legend]="resumeData.legend"></resume-structure>
+  <profile-header [data]="resumeData"></profile-header>
+  <div class="resume-content">
+    <div class="resume-column column-left">
+      <info-block title="Contact" [info]="resumeData.contact"></info-block>
+      <resume-timeline title="Education" [timeLineArray]="resumeData.timeline.education"></resume-timeline>
+      <info-block title="Languages" [percent]="true" [info]="resumeData.languages"></info-block>
+      <info-block title="Technical Skills" [percent]="true" [info]="resumeData.skills.technical"></info-block>
+      <info-block title="Framework Skills" [percent]="true" [info]="resumeData.skills.framework"></info-block>
     </div>
-    <div className="resume-column">
-      <resume-timeline timeLineArray={resumeData.timeline.experience} ></resume-timeline>
+    <div class="resume-column column-middle">
+      <resume-timeline title="Timeline" [timeLineArray]="resumeData.timeline.experience"></resume-timeline>
     </div>
-    <div className="resume-column">
-      <resume-timeline timeLineArray={resumeData.timeline.education}></resume-timeline>
+    <div class="resume-column column-right">
+      <text-block title="About Me" [text]="resumeData.aboutMe"></text-block>
+      <projects-block title="Micro Projects" [projects]="resumeData.microProjects"></projects-block>
+      <br />
+      <info-block title="Misc Skills" [percent]="true" [info]="resumeData.skills.misc"></info-block>
+      <social-block [background]="resumeData.background"></social-block>
     </div>
   </div>
 </div>

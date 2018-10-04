@@ -1,0 +1,29 @@
+<div class="text-block">
+  <h1>{{ title }}</h1>
+  <div class="row-content">
+    <div *ngFor="let project of projects">
+      <div class="project-content">
+        <div class="project-title">
+          <div class="project-year">
+            <span>{{project.year}}</span>
+          </div>
+          <div class="project-name">{{project.name}}</div>
+        </div>
+        <div class="project-description">
+          <div class="project-row">
+            <div class="row-title">Type:</div>
+            <div class="row-description">{{project.type}}</div>
+          </div>
+          <div class="project-row">
+            <div class="row-title">Main Front:</div>
+            <div class="row-description">{{project.mainFront}}</div>
+          </div>
+          <div class="project-row">
+            <div class="row-title">Main Back:</div>
+            <div class="row-description">{{project.mainBack}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

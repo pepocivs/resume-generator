@@ -11,18 +11,18 @@ export default {
   "background": [
     {
       "name": "Github",
-      "url": "github",
-      "icon": "https://github.com/pepocivs"
+      "icon": "github",
+      "url": "github.com/pepocivs"
     },
     {
       "name": "Website",
-      "url": "www",
-      "icon": "http://www.pepocivs.com"
+      "icon": "www",
+      "url": "www.pepocivs.com"
     },
     {
       "name": "Linkedin",
-      "url": "linkedin",
-      "icon": "https://www.linkedin.com/in/pepocivs"
+      "icon": "linkedin",
+      "url": "linkedin.com/in/pepocivs"
     }
   ],
   "contact": {
@@ -64,9 +64,9 @@ export default {
     "experience": [
       {
         "year": "2018",
-        "title": "Senior Developer",
+        "title": "Senior Frontend Developer",
         "location": "SopraSteria (Madrid)",
-        "highLight": "Polymer & Lion Components",
+        "highLight": "Polymer, Lion Components & VanillaJS",
         "highLightIcon": "code",
         "duration": "Current",
         "icon": "work"
@@ -137,7 +137,7 @@ export default {
       {
         "year": "2012",
         "title": "Accelerator Program Winners",
-        "location": "Business Booster",
+        "location": "Business Booster (Valencia)",
         "highLight": "Selected with our startup \"Sopcial\"",
         "highLightIcon": "code",
         "duration": "Until february 2013",
@@ -205,10 +205,10 @@ export default {
         "name": "C.I. (jenkins)",
         "percent": "70"
       },
-      {
-        "name": "AWS",
-        "percent": "60"
-      }
+      // {
+      //   "name": "AWS",
+      //   "percent": "60"
+      // }
     ],
     "framework": [
       {
@@ -238,7 +238,7 @@ export default {
     ],
     "misc": [
       {
-        "name": "Scrum",
+        "name": "Agile (Scrum)",
         "percent": "90"
       },
       {
@@ -283,7 +283,7 @@ export default {
     },
     {
       "year": "2016",
-      "name": "renfe price comparator Module",
+      "name": "Renfe price comparator",
       "type": "App Module",
       "mainFront": "Polymer",
       "mainBack": "PHP"

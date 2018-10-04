@@ -19,5 +19,4 @@ export class InfoBlockComponent {
   @Input() info: object;
   @Input() percent: boolean;
   @Input() title: string;
-  constructor() { }
 }

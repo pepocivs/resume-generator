@@ -1,0 +1,47 @@
+.project-content {
+  clear: both;
+  height: 85px;
+  border-bottom: 1px dotted;
+  margin-top: 4px;
+}
+.project-title, .project-description {
+  clear: both;
+}
+.project-year {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #5B768C;
+  color: #FFFFFF;
+  font-size: 11px;
+  border: 2px solid #FFFFFF;
+  text-align: center;
+  float: left;
+  span {
+    position: relative;
+    top: 8px;
+    font-weight: bold;
+  }
+}
+.project-name {
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+  color: #333333;
+  margin: 10px 5px;
+}
+.project-row {
+  font-size: 11px;
+  width: 100%;
+  padding-left: 12%;
+  clear: both;
+  .row-title {
+    width: 33%;
+    float: left;
+  }
+  .row-description {
+    width: 55%;
+    float: left;
+    color: #333333;
+  }
+}

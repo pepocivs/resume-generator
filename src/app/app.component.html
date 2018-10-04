@@ -10,11 +10,14 @@
       <info-block title="Framework Skills" [percent]="true" [info]="resumeData.skills.framework"></info-block>
     </div>
     <div class="resume-column column-middle">
-      <resume-timeline title="Experience" [timeLineArray]="resumeData.timeline.experience"></resume-timeline>
+      <resume-timeline title="Timeline" [timeLineArray]="resumeData.timeline.experience"></resume-timeline>
     </div>
     <div class="resume-column column-right">
+      <text-block title="About Me" [text]="resumeData.aboutMe"></text-block>
+      <projects-block title="Micro Projects" [projects]="resumeData.microProjects"></projects-block>
+      <br />
       <info-block title="Misc Skills" [percent]="true" [info]="resumeData.skills.misc"></info-block>
-      
+      <social-block [background]="resumeData.background"></social-block>
     </div>
   </div>
 </div>

@@ -8,10 +8,12 @@
     color: #333333;
   }
   .title {
-    font-weight: bold;
     width: 40%;
     position: relative;
     top: -8px;
+  }
+  .title.bold {
+    font-weight: bold;
   }
   .value {
     float: right;
@@ -28,14 +30,21 @@
   .value.big {
     width: 40%;
   }
+  .title.three {
+    width: 40%;
+  }
+  .value.three {
+    width: 30%;
+    margin-left: 20px;
+  }
 }
 .percent-bar {
   background-color: #EEEEEE;
   height: 10px;
-  margin-top: 5px;
+  margin-top: 3px;
   .filled-bar {
     background-color: #5B768C;
     height: 10px;
-    margin-top: 5px;
+    margin-top: 3px;
   }
 }

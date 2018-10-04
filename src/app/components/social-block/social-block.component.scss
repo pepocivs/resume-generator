@@ -1,0 +1,23 @@
+.row {
+  clear: both;
+  height: 60px;
+}
+.social-icon {
+  width: 50px;
+  float: left;
+  img {
+    width: 100%;
+  }
+}
+.social-title, .social-url {
+  font-size: 12px;
+  color: #333333;
+}
+.social-title {
+  font-weight: bold;
+}
+.social-text {
+  float: right;
+  padding: 8px;
+  width: 70%;
+}

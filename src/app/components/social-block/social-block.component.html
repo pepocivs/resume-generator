@@ -1,0 +1,15 @@
+<div class="social-block">
+  <div class="row-content">
+    <div *ngFor="let social of background">
+      <div class="row">
+        <div class="social-icon">
+          <img src="./assets/{{social.icon}}.svg" />
+        </div>
+        <div class="social-text">
+          <div class="social-title">{{social.name}}</div>
+          <div class="social-url">{{social.url}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

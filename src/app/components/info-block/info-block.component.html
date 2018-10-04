@@ -8,7 +8,7 @@
           <div class="title big">{{ info[key].name }}</div>
           <div class="value big">
             <div class="percent-bar">
-              {{ info[key].percent }}%
+              <div class="filled-bar" [style.width.%]="info[key].percent">&nbsp;</div>
             </div>
           </div>
         </ng-template>

@@ -8,7 +8,7 @@
     color: #333333;
   }
   .title {
-    font-weight: bolder;
+    font-weight: bold;
     width: 40%;
     position: relative;
     top: -8px;
@@ -20,12 +20,22 @@
     top: -24px;
   }
   .title, .value {
-    font-size: 12px;
+    font-size: 11px;
   }
   .title.big {
-    width: 70%;
+    width: 60%;
   }
   .value.big {
-    width: 30%;
+    width: 40%;
+  }
+}
+.percent-bar {
+  background-color: #EEEEEE;
+  height: 10px;
+  margin-top: 5px;
+  .filled-bar {
+    background-color: #5B768C;
+    height: 10px;
+    margin-top: 5px;
   }
 }

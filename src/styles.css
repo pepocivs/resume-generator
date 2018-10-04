@@ -4,6 +4,11 @@
   font-family: Monserrat;
   src: url('./assets/fonts/Montserrat-Regular.ttf');
 }
+@font-face {
+  font-family: Monserrat;
+  src: url('./assets/fonts/Montserrat-Bold.ttf');
+  font-weight: bold;
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -15,7 +20,7 @@ h1, h2 {
 h1 {
   text-transform: uppercase;
   border-bottom: 1px dotted;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 h2 {
@@ -28,10 +33,19 @@ h2 {
 .resume-content {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 10px 25px;
 }
 .resume-column {
-  min-width: 31%;
-  margin: 17px;
   flex-grow: 0;
 }
+.column-left {
+  width: 34%;
+}
+.column-middle {
+  width: 36%;
+}
+.column-right {
+  width: 26%;
+}
+
+

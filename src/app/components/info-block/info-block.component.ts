@@ -10,11 +10,11 @@ export class InfoBlockComponent {
   objectKeys = Object.keys;
   
   keysTranslator = {
-    "phone": "Mobile",
-    "email": "Email",
+    "phone": "Teléfono Móvil",
+    "email": "Dirección de Email",
     "skype": "Skype",
-    "socialNetworks": "Social networks",
-    "address": "Address"
+    "socialNetworks": "Redes Sociales",
+    "address": "Dirección Postal"
   }; 
   @Input() info: object;
   @Input() percent: boolean;

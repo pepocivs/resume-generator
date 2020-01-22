@@ -63,30 +63,12 @@ export default {
     ],
     "experience": [
       {
-        "year": "2019",
-        "title": "Senior Frontend Developer",
-        "location": "Concatel SII [BBVA-GloMo] (Madrid)",
-        "highLight": "Polymer (Cells)",
-        "highLightIcon": "code",
-        "duration": "Current",
-        "icon": "work"
-      },
-      {
-        "year": "2019",
-        "title": "Digital Nomad (Freelance)",
-        "location": "Indonesia (Bali)",
-        "highLight": "React & NodeJS",
-        "highLightIcon": "code",
-        "duration": "Until October 2019",
-        "icon": "world"
-      },
-      {
         "year": "2018",
         "title": "Senior Frontend Developer",
-        "location": "SopraSteria [ING-ModelBank] (Madrid)",
+        "location": "SopraSteria (Madrid)",
         "highLight": "Polymer, Lion Components & VanillaJS",
         "highLightIcon": "code",
-        "duration": "Until July 2019",
+        "duration": "Current",
         "icon": "work"
       },
       {
@@ -223,24 +205,20 @@ export default {
         "name": "C.I. (jenkins)",
         "percent": "70"
       },
-      {
-        "name": "AWS",
-        "percent": "60"
-      }
+      // {
+      //   "name": "AWS",
+      //   "percent": "60"
+      // }
     ],
     "framework": [
       {
         "name": "Polymer (JavaScript)",
         "percent": "90"
       },
-      {
-        "name": "React (JavaScript)",
-        "percent": "80"
-      },
-      {
-        "name": "Angular 1.5 (JavaScript)",
-        "percent": "90"
-      },
+      // {
+      //   "name": "Angular 1.5 (JavaScript)",
+      //   "percent": "90"
+      // },
       {
         "name": "NodeJS (JavaScript)",
         "percent": "70"
@@ -250,9 +228,13 @@ export default {
         "percent": "50"
       },
       {
-        "name": "Laravel (PHP)",
-        "percent": "60"
-      }
+        "name": "React (JavaScript)",
+        "percent": "50"
+      },
+      // {
+      //   "name": "Laravel (PHP)",
+      //   "percent": "60"
+      // }
     ],
     "misc": [
       {

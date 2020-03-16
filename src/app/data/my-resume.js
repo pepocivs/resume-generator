@@ -28,7 +28,7 @@ export default {
   "contact": {
     "phone": "+34 655 358 208",
     "email": "tcbpepo@gmail.com",
-    "socialNetworks": "@PepoCivs",
+    "socialNetworks": "@pepocivs",
     "address": "C/. Laguna del Marquesado, 11"
   },
   "timeline": {
@@ -220,7 +220,7 @@ export default {
         "percent": "90"
       },
       {
-        "name": "C.I. (jenkins)",
+        "name": "C.I. (Jenkins)",
         "percent": "70"
       },
       {
@@ -278,6 +278,20 @@ export default {
     ]
   },
   "microProjects": [
+    {
+      "year": "2019",
+      "name": "New Tuintra FE",
+      "type": "Progressive web App",
+      "mainFront": "React",
+      "mainBack": "NodeJS"
+    },
+    {
+      "year": "2018",
+      "name": "Screen Matrix (Arduino)",
+      "type": "Electronics",
+      "mainFront": "ArduinoC",
+      "mainBack": "NodeJS (Scripts)"
+    },
     {
       "year": "2017",
       "name": "Recipes of the wild",

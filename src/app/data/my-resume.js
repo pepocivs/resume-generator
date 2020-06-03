@@ -192,7 +192,7 @@ export default {
   "skills": {
     "technical": [
       {
-        "name": "JavaScript (ES6)",
+        "name": "JavaScript",
         "percent": "90"
       },
       {

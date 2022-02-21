@@ -13,11 +13,14 @@
     <span class="title">{{ element.title }}</span>
     <br />
     <span class="subtitle">{{ element.location }}</span>
+    <div *ngIf="element.highLightIcon; then hasHighLightIcon else hasntHighLightIcon"></div>
     <br />
-    <div class="high-light-icon">
-      <img src="./assets/{{ element.highLightIcon }}.svg" />
-    </div>
-    <span class="small">{{ element.highLight }}</span>
+    <ng-template #hasHighLightIcon>
+      <div class="high-light-icon">
+        <img src="./assets/{{ element.highLightIcon }}.svg" />
+      </div>
+    </ng-template>
+    <span class="small" [innerHtml]="element.highLight"></span>
     <br />
     <span class="small color">{{ element.duration }}</span>
   </div>

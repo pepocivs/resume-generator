@@ -1,173 +1,95 @@
 export default {
-  "fullName": "Jorge Martín",
-  "title": "IT Developer",
-  "picture": "https://en.gravatar.com/userimage/100835827/ab578160ae63ce48b3ec603fe41a3d7b.jpg?size=600",
+  "fullName": "Neila E. Torres Panez",
+  "title": "Software Engineer | Frontend Developer",
+  "picture": "https://secure.gravatar.com/avatar/a374670c7665ca0202a892010dee4e43?size=1024",
   "aboutMe": [
-    "Steadfast developer, field hockey player & umpire, enjoying the journey to my targets.",
-    "I'm a startupGuy, looking for cool projects based on last technologies and always trying to learn, I like to develop my own projects along the way.",
-    "<strong>\"I believe that something can always be better.\"</strong>"
+    "Enthusiastic, diligent and detail-oriented Software Engineer eager to contribute to team success.",
+    "Strong commitment to collaboration and solutions-oriented problem-solving. Implements with various web design frameworks to develop custom-crafted, customer-focused websites and designs.Dedicated to writing superior quality code and building a great software base on maximized user experience, usability and performance.",
+    "<strong>\"you learn what you teach and own what you share.\"</strong>"
   ],
   "legend": "* 100% of the skills bars represents my knowledge in relation with my other knowledge, it doesn't represent 100% of the worldwide knowledge :) [I didn't not create JavaScript]",
   "background": [
     {
       "name": "Github",
       "icon": "github",
-      "url": "github.com/pepocivs"
-    },
-    {
-      "name": "Website",
-      "icon": "www",
-      "url": "www.pepocivs.com"
+      "url": "github.com/netorrespanez"
     },
     {
       "name": "Linkedin",
       "icon": "linkedin",
-      "url": "linkedin.com/in/pepocivs"
+      "url": "linkedin.com/in/etorrespanez"
     }
   ],
   "contact": {
-    "phone": "+34 655 358 208",
-    "email": "tcbpepo@gmail.com",
-    "socialNetworks": "@pepocivs",
-    "address": "C/. Laguna del Marquesado, 11"
+    "phone": "+34 603 151 135",
+    "email": "ne.torrespanez@gmail.com",
+    "socialNetworks": "@netorrespanez",
+    "address": "C/. Lorenzo Gonzalez, 18"
   },
   "timeline": {
     "education": [
       {
-        "year": "2010",
-        "title": "Information technology degree",
-        "location": "Universidad Politécnica (Valencia)",
+        "year": "2021",
+        "title": "European Master in Software Engineering",
+        "location": "Universidad Politécnica de Madrid (Madrid)",
         "highLight": "High academic performance group",
         "highLightIcon": "work",
-        "duration": "Until July 2012 (2nd course)",
+        "duration": "Until July 2023",
         "icon": "academic"
       },
       {
-        "year": "2008",
-        "title": "Apps development (DAI)",
-        "location": "I.E.S. Abastos (Valencia)",
-        "highLight": "New House Designs (Plymouth, UK)",
+        "year": "2012",
+        "title": "Bachelor's Degree in Computer Science",
+        "location": "Universidad Politécnica de Madrid (Madrid)",
+        "highLight": "High academic performance group",
         "highLightIcon": "work",
-        "duration": "Until July 2010",
-        "icon": "academic"
-      },
-      {
-        "year": "2006",
-        "title": "Middle degree",
-        "location": "Tame (Mislata)",
-        "highLight": "Ford Almussafes (Valencia)",
-        "highLightIcon": "work",
-        "duration": "Until June 2008",
+        "duration": "Until July 2017",
         "icon": "academic"
       }
     ],
     "experience": [
       {
-        "year": "2019",
-        "title": "Senior Frontend Developer",
-        "location": "Concatel SII [BBVA-GloMo] (Madrid)",
-        "highLight": "Polymer (Cells)",
-        "highLightIcon": "code",
+        "year": "2021",
+        "title": "Software Engineer - Accessibility Advocate",
+        "location": "Capgemini Engineering (Madrid)",
+        "highLight": "Develop accessible, user-oriented, cross-platform applications.<br />Develop accessibility reviews of applications.<br />Make talks and training on web accessibility",
         "duration": "Current",
         "icon": "work"
       },
       {
         "year": "2019",
-        "title": "Digital Nomad (Freelance)",
-        "location": "Indonesia (Bali)",
-        "highLight": "React & NodeJS",
+        "title": "Web Development Teacher",
+        "location": "Fictizia,(Madrid)",
+        "highLight": "JavaScript and FrontEnd Frameworks",
         "highLightIcon": "code",
-        "duration": "Until October 2019",
-        "icon": "world"
+        "duration": "Until July 2021",
+        "icon": "work"
       },
       {
         "year": "2018",
         "title": "Senior Frontend Developer",
-        "location": "SopraSteria [ING-ModelBank] (Madrid)",
-        "highLight": "Polymer, Lion Components & VanillaJS",
+        "location": "SopraSteria [BBVA-GloMo] (Madrid)",
+        "highLight": "JavaScript (ES6), Polymer (Cells)",
         "highLightIcon": "code",
-        "duration": "Until July 2019",
+        "duration": "Until December 2019",
         "icon": "work"
       },
       {
         "year": "2017",
-        "title": "Product Hacker",
-        "location": "Product Hackers (Madrid)",
-        "highLight": "JavaScript (ES6), NodeJs & AWS",
+        "title": "Data Analyst",
+        "location": "Iberia Airlines (Madrid)",
+        "highLight": "R Studio",
         "highLightIcon": "code",
-        "duration": "Until December 2017",
+        "duration": "Until July 2018",
         "icon": "work"
       },
       {
-        "year": "2015",
-        "title": "Front Leader",
-        "location": "King of App (Madrid)",
-        "highLight": "Polymer, Angular, NodeJs, MongoDB & AWS",
+        "year": "2016",
+        "title": "Chatbot Developer",
+        "location": "Commons.fm (Madrid)",
+        "highLight": "JavaScript (ES6), NodeJs",
         "highLightIcon": "code",
         "duration": "Until July 2017",
-        "icon": "work"
-      },
-      {
-        "year": "2014",
-        "title": "Junior Fullstack Developer",
-        "location": "TriboTV (Madrid)",
-        "highLight": "PHP, MySql, CSS, JavaScript & Java",
-        "highLightIcon": "code",
-        "duration": "Until November 2014",
-        "icon": "work"
-      },
-      {
-        "year": "2014",
-        "title": "Selected for 1st SM edition",
-        "location": "Startups Mansion (New York, US)",
-        "highLight": "30 Entepreneurs living 3 months in NYC",
-        "highLightIcon": "info",
-        "duration": "Until December 2014",
-        "icon": "award"
-      },
-      {
-        "year": "2013",
-        "title": "Junior Fullstack Developer",
-        "location": "Homelyst (Valencia)",
-        "highLight": "PHP, MySql, CSS & JavaScript",
-        "highLightIcon": "code",
-        "duration": "Until January 2015",
-        "icon": "work"
-      },
-      {
-        "year": "2013",
-        "title": "Co-founder & Developer",
-        "location": "Interacis (Valencia)",
-        "highLight": "PHP, MySql, CSS & JavaScript",
-        "highLightIcon": "code",
-        "duration": "Until January 2017",
-        "icon": "work"
-      },
-      {
-        "year": "2012",
-        "title": "Co-founder & Developer",
-        "location": "Sopcial S.L. (Valencia)",
-        "highLight": "PHP, MySql, CSS & Jquery",
-        "highLightIcon": "code",
-        "duration": "Until September 2013",
-        "icon": "work"
-      },
-      {
-        "year": "2012",
-        "title": "Accelerator Program Winners",
-        "location": "Business Booster (Valencia)",
-        "highLight": "Selected with our startup \"Sopcial\"",
-        "highLightIcon": "code",
-        "duration": "Until february 2013",
-        "icon": "award"
-      },
-      {
-        "year": "2010",
-        "title": "Founder & Developer",
-        "location": "Tuintra (Valencia)",
-        "highLight": "PHP, MySql, CSS & Jquery",
-        "highLightIcon": "code",
-        "duration": "Current",
         "icon": "work"
       }
     ]
@@ -179,12 +101,12 @@ export default {
       "percent": "100"
     },
     {
-      "name": "Valencian",
-      "level": "Pseudo-Native",
-      "percent": "90"
+      "name": "English",
+      "level": "B2",
+      "percent": "70"
     },
     {
-      "name": "English",
+      "name": "French",
       "level": "B2",
       "percent": "70"
     }
@@ -196,7 +118,7 @@ export default {
         "percent": "90"
       },
       {
-        "name": "PHP",
+        "name": "MySql",
         "percent": "80"
       },
       {
@@ -208,11 +130,7 @@ export default {
         "percent": "90"
       },
       {
-        "name": "RelBD (MySql)",
-        "percent": "90"
-      },
-      {
-        "name": "TDD - Jasmine / Mocha",
+        "name": "TDD - Chai / Mocha",
         "percent": "60"
       },
       {
@@ -221,10 +139,10 @@ export default {
       },
       {
         "name": "C.I. (Jenkins)",
-        "percent": "70"
+        "percent": "60"
       },
       {
-        "name": "AWS",
+        "name": "R Studio",
         "percent": "60"
       }
     ],
@@ -235,11 +153,11 @@ export default {
       },
       {
         "name": "React (JavaScript)",
-        "percent": "80"
+        "percent": "60"
       },
       {
         "name": "Angular 1.5 (JavaScript)",
-        "percent": "90"
+        "percent": "60"
       },
       {
         "name": "NodeJS (JavaScript)",
@@ -247,17 +165,17 @@ export default {
       },
       {
         "name": "Vue (JavaScript)",
-        "percent": "50"
+        "percent": "90"
       },
       {
-        "name": "Laravel (PHP)",
+        "name": "JAVA, J2EE (JMS, Java RMI)",
         "percent": "60"
       }
     ],
     "misc": [
       {
         "name": "Agile (Scrum)",
-        "percent": "90"
+        "percent": "70"
       },
       {
         "name": "Learning by doing",
@@ -265,67 +183,31 @@ export default {
       },
       {
         "name": "TeamWork",
-        "percent": "100"
+        "percent": "90"
       },
       {
         "name": "Startup development",
         "percent": "90"
       },
       {
-        "name": "Geographical mobility",
-        "percent": "100"
+        "name": "Code Reviews",
+        "percent": "80"
       }
     ]
   },
   "microProjects": [
     {
-      "year": "2019",
-      "name": "New Tuintra FE",
-      "type": "Progressive web App",
-      "mainFront": "React",
+      "year": "2021",
+      "name": "Web Scraping Stackbuilders",
+      "type": "Script",
+      "mainFront": "Puppeteer and Cheerio",
       "mainBack": "NodeJS"
     },
     {
-      "year": "2018",
-      "name": "Screen Matrix (Arduino)",
-      "type": "Electronics",
-      "mainFront": "ArduinoC",
-      "mainBack": "NodeJS (Scripts)"
-    },
-    {
-      "year": "2017",
-      "name": "Recipes of the wild",
-      "type": "Progressive web App",
-      "mainFront": "Polymer",
-      "mainBack": "NodeJS"
-    },
-    {
-      "year": "2017",
-      "name": "DGT test",
-      "type": "Progressive web App",
-      "mainFront": "Polymer",
-      "mainBack": "NodeJS"
-    },
-    {
-      "year": "2016",
-      "name": "Chat module for KOA",
-      "type": "App Module",
-      "mainFront": "AngularJS",
-      "mainBack": "Firebase"
-    },
-    {
-      "year": "2016",
-      "name": "Renfe price comparator",
-      "type": "App Module",
-      "mainFront": "Polymer",
-      "mainBack": "PHP"
-    },
-    {
-      "year": "2011",
-      "name": "Popubooks",
-      "type": "Social network",
-      "mainFront": "PHP",
-      "mainBack": "PHP"
+      "year": "2020",
+      "name": "CFF Map",
+      "type": "Single-Page App",
+      "mainFront": "Vue.js"
     }
   ]
 }

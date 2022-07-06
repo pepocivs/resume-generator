@@ -1,0 +1,13 @@
+<div class="column-block">
+  <h1>{{ title }}</h1>
+  <div class="row-content">
+    <div class="item-content" *ngFor="let row of info; let generalIndex=index;">
+      <div class="title title-{{generalIndex}}" [innerHTML]="row.title"></div>
+      <div *ngFor="let subTitle of row.subTitle; let indexOfelement=index;">
+        <div class="text-{{indexOfelement}}-{{generalIndex}}" [innerHTML]="subTitle"></div>
+        <br />
+      </div>
+      <div class="text" [innerHTML]="row.year"></div>
+    </div>
+  </div>
+</div>

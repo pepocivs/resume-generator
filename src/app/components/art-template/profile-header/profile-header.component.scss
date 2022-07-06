@@ -1,0 +1,26 @@
+/* Header */
+.resume-header {
+  font-family: Gothic;
+  height: 90px;
+  padding: 95px 20px 20px 20px;
+  position: absolute;
+  display: flex;
+}
+
+.resume-header .header-content {
+  padding: 0px 60px;
+  line-height: 1em;
+}
+
+.resume-header .circle-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.resume-title {
+  font-size: 25px;
+  text-transform: uppercase;
+  border: none;
+  color: #FFFFFF;
+}

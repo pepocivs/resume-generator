@@ -1,0 +1,36 @@
+<div class="simple-block">
+  <h1>{{ title }}</h1>
+  <div class="row-content">
+    <div *ngIf="!info.type then simple else complex"></div>
+
+    <ng-template #simple>
+      <div *ngFor="let row of info.data">
+        <div class="row" [innerHTML]="row"></div>
+      </div>
+    </ng-template>
+
+    <ng-template #complex>
+      <div *ngIf="info.type === 'two-column' then twoColumn else twoColumnIcon"></div>
+
+      <ng-template #twoColumn>
+        <div *ngFor="let row of info.data">
+          <div class="two-column-container">
+            <div>{{row.name}}</div>
+            <div>{{row.value}}</div>
+          </div>
+        </div>
+      </ng-template>
+
+      <ng-template #twoColumnIcon>
+        <div *ngFor="let row of info.data">
+          <div class="two-column-icon-container">
+            <div><img src="./assets/{{row.icon}}.svg" /></div>
+            <div>{{row.value}}</div>
+          </div>
+        </div>
+      </ng-template>
+    </ng-template>
+
+    
+  </div>
+</div>

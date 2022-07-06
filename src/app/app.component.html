@@ -1,27 +1,57 @@
 <div class="resume">
-  <resume-structure [legend]="resumeData.legend"></resume-structure>
-  <profile-header [data]="resumeData"></profile-header>
-  <div class="resume-content">
-    <div class="resume-column column-left">
-      <info-block title="Contact" [info]="resumeData.contact"></info-block>
-      <resume-timeline title="Education" [timeLineArray]="resumeData.timeline.education"></resume-timeline>
-      <br />
-      <br />
-      <info-block title="Languages" [percent]="true" [info]="resumeData.languages"></info-block>
-      <br />
-      <info-block title="Technical Skills" [percent]="true" [info]="resumeData.skills.technical"></info-block>
-      <br />
-      <info-block title="Framework Skills" [percent]="true" [info]="resumeData.skills.framework"></info-block>
+  <div *ngIf="resumeData.template === 'arts' then isArts else isTech"></div>
+
+
+  <ng-template #isArts>
+    <art-structure [legend]="resumeData.legend"></art-structure>
+    <art-profile-header [data]="resumeData"></art-profile-header>
+    <div class="vertical-line"></div>
+    <div class="resume-content resume-content-art">
+      <div class="resume-column column-left">
+        <simple-block title="Personal" [info]="resumeData.personal"></simple-block>
+        <div class="separator"></div>
+        <simple-block title="Programas" [info]="resumeData.software"></simple-block>
+        <div class="separator"></div>
+        <simple-block title="Contacto" [info]="resumeData.contact"></simple-block>
+      </div>
+      <div class="resume-column column-right">
+        <text-block title="Perfil" [text]="resumeData.profile"></text-block>
+        <div class="separator"></div>
+        <text-block title="Sobre mí" [text]="resumeData.aboutMe"></text-block>
+        <div class="separator"></div>
+        <column-block title="Estudios" [info]="resumeData.education"></column-block>
+        <div class="separator"></div>
+        <column-block title="Idiomas" [info]="resumeData.languages"></column-block>
+      </div>
     </div>
-    <div class="resume-column column-middle">
-      <resume-timeline title="Timeline" [timeLineArray]="resumeData.timeline.experience"></resume-timeline>
+  </ng-template>
+
+
+  <ng-template #isTech>
+    <resume-structure [legend]="resumeData.legend"></resume-structure>
+    <profile-header [data]="resumeData"></profile-header>
+    <div class="resume-content">
+      <div class="resume-column column-left">
+        <info-block title="Contact" [info]="resumeData.contact"></info-block>
+        <resume-timeline title="Education" [timeLineArray]="resumeData.timeline.education"></resume-timeline>
+        <br />
+        <br />
+        <info-block title="Languages" [percent]="true" [info]="resumeData.languages"></info-block>
+        <br />
+        <info-block title="Technical Skills" [percent]="true" [info]="resumeData.skills.technical"></info-block>
+        <br />
+        <info-block title="Framework Skills" [percent]="true" [info]="resumeData.skills.framework"></info-block>
+      </div>
+      <div class="resume-column column-middle">
+        <resume-timeline title="Timeline" [timeLineArray]="resumeData.timeline.experience"></resume-timeline>
+      </div>
+      <div class="resume-column column-right">
+        <text-block title="About Me" [text]="resumeData.aboutMe"></text-block>
+        <projects-block title="Micro Projects" [projects]="resumeData.microProjects"></projects-block>
+        <br />
+        <info-block title="Misc Skills" [percent]="true" [info]="resumeData.skills.misc"></info-block>
+        <social-block [background]="resumeData.background"></social-block>
+      </div>
     </div>
-    <div class="resume-column column-right">
-      <text-block title="About Me" [text]="resumeData.aboutMe"></text-block>
-      <projects-block title="Micro Projects" [projects]="resumeData.microProjects"></projects-block>
-      <br />
-      <info-block title="Misc Skills" [percent]="true" [info]="resumeData.skills.misc"></info-block>
-      <social-block [background]="resumeData.background"></social-block>
-    </div>
-  </div>
+  </ng-template>
 </div>

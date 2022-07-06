@@ -1,0 +1,31 @@
+.row-content {
+    font-size: 10px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.row-content .item-content {
+    width: calc(50% - 15px);
+    margin-bottom: 20px;
+}
+
+.row-content .item-content .text-1-0, .row-content .item-content .text-1-1 {
+    height: 40px;
+}
+
+.title-2 {
+    margin-top: 30px;
+}
+
+.title, .text {
+    text-transform: uppercase;
+}
+.title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.text {
+    line-height: 1.5;
+}

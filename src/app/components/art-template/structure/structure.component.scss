@@ -1,0 +1,16 @@
+#topBar, #bottomBar {
+  font-family: Gothic;
+  position: absolute;
+  background-color: #434344;
+  width: 100%;
+}
+
+#topBar {
+  height: 200px;
+  top: 0px;
+}
+
+#bottomBar {
+  height: 20px;
+  bottom: 0px;
+}

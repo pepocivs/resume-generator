@@ -1,0 +1,33 @@
+.row {
+    color: #333333;
+    font-size: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.two-column-container, .two-column-icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.two-column-container div, .two-column-icon-container div {
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.two-column-container div {
+    width: 50%;
+}
+
+.two-column-icon-container div:last-child {
+    text-transform: none;
+}
+
+.two-column-icon-container img {
+    width: 20px;
+}
+
+.two-column-icon-container div:first-child {
+    width: 40px;
+}

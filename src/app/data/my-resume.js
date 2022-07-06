@@ -1,7 +1,8 @@
 export default {
+  "template": "tech",
   "fullName": "Jorge Martín",
   "title": "IT Developer",
-  "picture": "https://en.gravatar.com/userimage/100835827/ab578160ae63ce48b3ec603fe41a3d7b.jpg?size=600",
+  "picture": "https://en.gravatar.com/userimage/100835827/de3203fee4bea501f3481fb765d14851.jpg?size=600",
   "aboutMe": [
     "Steadfast developer, field hockey player & umpire, enjoying the journey to my targets.",
     "I'm a startupGuy, looking for cool projects based on last technologies and always trying to learn, I like to develop my own projects along the way.",
@@ -29,7 +30,7 @@ export default {
     "phone": "+34 655 358 208",
     "email": "tcbpepo@gmail.com",
     "socialNetworks": "@pepocivs",
-    "address": "C/. Laguna del Marquesado, 11"
+    "address": "C/. Isla Cabrera, 8"
   },
   "timeline": {
     "education": [
@@ -63,12 +64,21 @@ export default {
     ],
     "experience": [
       {
+        "year": "2020",
+        "title": "Senior Frontend Developer",
+        "location": "ING Spain & Portugal (fullRemote / Madrid)",
+        "highLight": "LitHtml (ing-web)",
+        "highLightIcon": "code",
+        "duration": "Current",
+        "icon": "work"
+      },
+      {
         "year": "2019",
         "title": "Senior Frontend Developer",
         "location": "Concatel SII [BBVA-GloMo] (Madrid)",
         "highLight": "Polymer (Cells)",
         "highLightIcon": "code",
-        "duration": "Current",
+        "duration": "Until July 2020",
         "icon": "work"
       },
       {
@@ -208,7 +218,7 @@ export default {
         "percent": "90"
       },
       {
-        "name": "RelBD (MySql)",
+        "name": "RelDB (MySql)",
         "percent": "90"
       },
       {
@@ -256,7 +266,7 @@ export default {
     ],
     "misc": [
       {
-        "name": "Agile (Scrum)",
+        "name": "Agile (Scrum) PSMI Cert",
         "percent": "90"
       },
       {

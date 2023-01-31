@@ -38,6 +38,16 @@ h1 {
 h2 {
   font-family: Monserrat;
 }
+a {
+  font-size: 8px;
+}
+.tall {
+  height: 37px;
+}
+
+.medium {
+  height: 26px;
+}
 .resume {
   color: #5B768C;
   font-family: Monserrat;
@@ -57,6 +67,15 @@ h2 {
   border-bottom: 2px solid #c1c1c1;
   position: relative;
   display: flex;
+}
+
+.two-columns {
+  display: flex;
+}
+
+half-column-block {
+  width: 50%;
+  padding-right: 20px;
 }
 
 .resume-column {
@@ -91,6 +110,7 @@ h2 {
 }
 .resume-content-art .resume-column.column-right {
   width: 70%;
+  padding-left: 30px;
 }
 
 .resume-content-art text-block, .resume-content-art simple-block, .resume-content-art column-block {

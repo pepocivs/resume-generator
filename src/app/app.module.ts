@@ -12,6 +12,7 @@ import { TimelineComponent } from './components/timeline/timeline.component';
 import { InfoBlockComponent } from './components/info-block/info-block.component';
 import { SimpleBlockComponent } from './components/simple-block/simple-block.component';
 import { ColumnBlockComponent } from './components/column-block/column-block.component';
+import { HalfColumnBlockComponent } from './components/half-column-block/half-column-block.component';
 import { TextBlockComponent } from './components/text-block/text-block.component';
 import { ProjectsBlockComponent } from './components/projects-block/projects-block.component';
 import { SocialBlockComponent } from './components/social-block/social-block.component';
@@ -27,6 +28,7 @@ import { SocialBlockComponent } from './components/social-block/social-block.com
     InfoBlockComponent,
     SimpleBlockComponent,
     ColumnBlockComponent,
+    HalfColumnBlockComponent,
     TextBlockComponent,
     ProjectsBlockComponent,
     SocialBlockComponent

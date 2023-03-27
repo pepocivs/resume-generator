@@ -2,18 +2,18 @@
 <profile-header-lite [data]="resumeData"></profile-header-lite>
 <div class="resume-content">
   <div class="resume-column column-left">
-    <info-block title="Contact" [info]="resumeData.contact"></info-block>
-    <resume-timeline title="Education" [timeLineArray]="resumeData.timeline.education"></resume-timeline>
+    <info-block title="Contact" [info]="resumeData.contact.data"></info-block>
+    <resume-timeline title="Education" [timeLineArray]="resumeData.education"></resume-timeline>
     <br />
     <br />
     <info-block title="Languages" [percent]="true" [info]="resumeData.languages"></info-block>
     <br />
-    <info-block title="Technical Skills" [percent]="true" [info]="resumeData.skills.technical"></info-block>
+    <info-block title="Technical Skills" [percent]="true" [info]="resumeData.skills.technical.data"></info-block>
     <br />
-    <info-block title="Framework Skills" [percent]="true" [info]="resumeData.skills.framework"></info-block>
+    <info-block title="Framework Skills" [percent]="true" [info]="resumeData.skills.framework.data"></info-block>
   </div>
   <div class="resume-column column-middle">
-    <resume-timeline title="Timeline" [timeLineArray]="resumeData.timeline.experience"></resume-timeline>
+    <resume-timeline title="Timeline" [timeLineArray]="resumeData.experience"></resume-timeline>
   </div>
   <div class="resume-column column-right">
     <text-block title="About Me" [text]="resumeData.aboutMe"></text-block>

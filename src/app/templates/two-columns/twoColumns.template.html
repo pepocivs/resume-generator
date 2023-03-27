@@ -1,0 +1,33 @@
+
+<profile-header-two-columns color="#22639d" [data]="resumeData" class="two-columns-primary-color"></profile-header-two-columns>
+
+<div class="two-columns-container two-columns-primary-color">
+    <dashed-title color="#4f74ba" title="Sobre mí" icon="info"></dashed-title>
+    <div class="aboutme-content">
+        <ng-container *ngFor="let row of resumeData.aboutMe">
+            <p class="row" [innerHTML]="row"></p>
+        </ng-container>
+    </div>
+    <dashed-title color="#4f74ba" title="Experiencia profesional" icon="work"></dashed-title>
+    <two-columns-block [info]="resumeData.experience"></two-columns-block>
+    <div class="two-columns">
+        <div class="column">
+            <dashed-title color="#4f74ba" title="Educacion" icon="academic"></dashed-title>
+            <two-columns-block [info]="resumeData.education"></two-columns-block>
+        </div>
+        <div class="column">
+            <dashed-title color="#4f74ba" title="Idiomas" icon="language"></dashed-title>
+            <two-columns-bars [percent]="true" [info]="resumeData.languages"></two-columns-bars>
+        </div>
+    </div>
+    <div class="two-columns">
+        <div class="column">
+            <dashed-title color="#4f74ba" title="Habilidades" icon="code"></dashed-title>
+            <two-columns-bars [percent]="true" [info]="resumeData.skills.technical"></two-columns-bars>
+        </div>
+        <div class="column">
+            <dashed-title color="#4f74ba" title="Habilidades sociales" icon="softSkills"></dashed-title>
+            <two-columns-bars [percent]="true" [info]="resumeData.skills.misc"></two-columns-bars>
+        </div>
+    </div>
+</div>

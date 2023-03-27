@@ -1,0 +1,23 @@
+.two-columns-container {
+  padding: 10px;
+}
+.two-columns {
+  display: flex;
+  column-gap: 30px;
+
+  .column {
+    width: 100%;
+  }
+}
+
+.aboutme-content {
+  padding: 10px 40px;
+  font-size: 13px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Monserrat;
+}
+

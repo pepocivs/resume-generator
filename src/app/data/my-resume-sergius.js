@@ -1,5 +1,5 @@
 export default {
-  "template": 'default',
+  "template": 'artistic',
   "fullName": "Sergio Olmeda",
   "picture": "https://es.gravatar.com/userimage/198969001/5cb06dfec1883cc56794d2cd537f4d24.jpg?size=600",
   "aboutMe": [
@@ -191,5 +191,10 @@ export default {
         "Centro de Secundaria.<br />I.E.S. Albal"
       ]
     }
-  ]
+  ],
+  "skills": {
+    "technical": { "data": [] },
+    "framework": { "data": [] },
+    "misc": [],
+  }
 }

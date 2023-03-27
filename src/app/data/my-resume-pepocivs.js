@@ -27,161 +27,174 @@ export default {
     }
   ],
   "contact": {
-    "phone": "+34 655 358 208",
-    "email": "tcbpepo@gmail.com",
-    "socialNetworks": "@pepocivs",
-    "address": "C/. Isla Cabrera, 8"
-  },
-  "timeline": {
-    "education": [
+    "type": "two-column",
+    "data": [
       {
-        "year": "2010",
-        "title": "Information technology degree",
-        "location": "Universidad Politécnica (Valencia)",
-        "highLight": "High academic performance group",
-        "highLightIcon": "work",
-        "duration": "Until July 2012 (2nd course)",
-        "icon": "academic"
+        "name": "Mobile",
+        "value": "+34 655 358 208"
       },
       {
-        "year": "2008",
-        "title": "Apps development (DAI)",
-        "location": "I.E.S. Abastos (Valencia)",
-        "highLight": "New House Designs (Plymouth, UK)",
-        "highLightIcon": "work",
-        "duration": "Until July 2010",
-        "icon": "academic"
+        "name": "Email",
+        "value": "tcbpepo@gmail.com"
       },
       {
-        "year": "2006",
-        "title": "Middle degree",
-        "location": "Tame (Mislata)",
-        "highLight": "Ford Almussafes (Valencia)",
-        "highLightIcon": "work",
-        "duration": "Until June 2008",
-        "icon": "academic"
-      }
-    ],
-    "experience": [
-      {
-        "year": "2020",
-        "title": "Senior Frontend Developer",
-        "location": "ING Spain & Portugal (fullRemote / Madrid)",
-        "highLight": "LitHtml (ing-web)",
-        "highLightIcon": "code",
-        "duration": "Current",
-        "icon": "work"
+        "name": "Social networks",
+        "value": "@pepocivs"
       },
       {
-        "year": "2019",
-        "title": "Senior Frontend Developer",
-        "location": "Concatel SII [BBVA-GloMo] (Madrid)",
-        "highLight": "Polymer (Cells)",
-        "highLightIcon": "code",
-        "duration": "Until July 2020",
-        "icon": "work"
-      },
-      {
-        "year": "2019",
-        "title": "Digital Nomad (Freelance)",
-        "location": "Indonesia (Bali)",
-        "highLight": "React & NodeJS",
-        "highLightIcon": "code",
-        "duration": "Until October 2019",
-        "icon": "world"
-      },
-      {
-        "year": "2018",
-        "title": "Senior Frontend Developer",
-        "location": "SopraSteria [ING-ModelBank] (Madrid)",
-        "highLight": "Polymer, Lion Components & VanillaJS",
-        "highLightIcon": "code",
-        "duration": "Until July 2019",
-        "icon": "work"
-      },
-      {
-        "year": "2017",
-        "title": "Product Hacker",
-        "location": "Product Hackers (Madrid)",
-        "highLight": "JavaScript (ES6), NodeJs & AWS",
-        "highLightIcon": "code",
-        "duration": "Until December 2017",
-        "icon": "work"
-      },
-      {
-        "year": "2015",
-        "title": "Front Leader",
-        "location": "King of App (Madrid)",
-        "highLight": "Polymer, Angular, NodeJs, MongoDB & AWS",
-        "highLightIcon": "code",
-        "duration": "Until July 2017",
-        "icon": "work"
-      },
-      {
-        "year": "2014",
-        "title": "Junior Fullstack Developer",
-        "location": "TriboTV (Madrid)",
-        "highLight": "PHP, MySql, CSS, JavaScript & Java",
-        "highLightIcon": "code",
-        "duration": "Until November 2014",
-        "icon": "work"
-      },
-      {
-        "year": "2014",
-        "title": "Selected for 1st SM edition",
-        "location": "Startups Mansion (New York, US)",
-        "highLight": "30 Entepreneurs living 3 months in NYC",
-        "highLightIcon": "info",
-        "duration": "Until December 2014",
-        "icon": "award"
-      },
-      {
-        "year": "2013",
-        "title": "Junior Fullstack Developer",
-        "location": "Homelyst (Valencia)",
-        "highLight": "PHP, MySql, CSS & JavaScript",
-        "highLightIcon": "code",
-        "duration": "Until January 2015",
-        "icon": "work"
-      },
-      {
-        "year": "2013",
-        "title": "Co-founder & Developer",
-        "location": "Interacis (Valencia)",
-        "highLight": "PHP, MySql, CSS & JavaScript",
-        "highLightIcon": "code",
-        "duration": "Until January 2017",
-        "icon": "work"
-      },
-      {
-        "year": "2012",
-        "title": "Co-founder & Developer",
-        "location": "Sopcial S.L. (Valencia)",
-        "highLight": "PHP, MySql, CSS & Jquery",
-        "highLightIcon": "code",
-        "duration": "Until September 2013",
-        "icon": "work"
-      },
-      {
-        "year": "2012",
-        "title": "Accelerator Program Winners",
-        "location": "Business Booster (Valencia)",
-        "highLight": "Selected with our startup \"Sopcial\"",
-        "highLightIcon": "code",
-        "duration": "Until february 2013",
-        "icon": "award"
-      },
-      {
-        "year": "2010",
-        "title": "Founder & Developer",
-        "location": "Tuintra (Valencia)",
-        "highLight": "PHP, MySql, CSS & Jquery",
-        "highLightIcon": "code",
-        "duration": "Current",
-        "icon": "work"
+        "name": "Address",
+        "value": "C/. Isla Cabrera, 8"
       }
     ]
   },
+  "education": [
+    {
+      "year": "2010",
+      "title": "Information technology degree",
+      "location": "Universidad Politécnica (Valencia)",
+      "highLight": "High academic performance group",
+      "highLightIcon": "work",
+      "duration": "Until July 2012 (2nd course)",
+      "icon": "academic"
+    },
+    {
+      "year": "2008",
+      "title": "Apps development (DAI)",
+      "location": "I.E.S. Abastos (Valencia)",
+      "highLight": "New House Designs (Plymouth, UK)",
+      "highLightIcon": "work",
+      "duration": "Until July 2010",
+      "icon": "academic"
+    },
+    {
+      "year": "2006",
+      "title": "Middle degree",
+      "location": "Tame (Mislata)",
+      "highLight": "Ford Almussafes (Valencia)",
+      "highLightIcon": "work",
+      "duration": "Until June 2008",
+      "icon": "academic"
+    }
+  ],
+  "experience": [
+    {
+      "year": "2020",
+      "title": "Senior Frontend Developer",
+      "location": "ING Spain & Portugal (fullRemote / Madrid)",
+      "highLight": "LitHtml (ing-web)",
+      "highLightIcon": "code",
+      "duration": "Current",
+      "icon": "work"
+    },
+    {
+      "year": "2019",
+      "title": "Senior Frontend Developer",
+      "location": "Concatel SII [BBVA-GloMo] (Madrid)",
+      "highLight": "Polymer (Cells)",
+      "highLightIcon": "code",
+      "duration": "Until July 2020",
+      "icon": "work"
+    },
+    {
+      "year": "2019",
+      "title": "Digital Nomad (Freelance)",
+      "location": "Indonesia (Bali)",
+      "highLight": "React & NodeJS",
+      "highLightIcon": "code",
+      "duration": "Until October 2019",
+      "icon": "world"
+    },
+    {
+      "year": "2018",
+      "title": "Senior Frontend Developer",
+      "location": "SopraSteria [ING-ModelBank] (Madrid)",
+      "highLight": "Polymer, Lion Components & VanillaJS",
+      "highLightIcon": "code",
+      "duration": "Until July 2019",
+      "icon": "work"
+    },
+    {
+      "year": "2017",
+      "title": "Product Hacker",
+      "location": "Product Hackers (Madrid)",
+      "highLight": "JavaScript (ES6), NodeJs & AWS",
+      "highLightIcon": "code",
+      "duration": "Until December 2017",
+      "icon": "work"
+    },
+    {
+      "year": "2015",
+      "title": "Front Leader",
+      "location": "King of App (Madrid)",
+      "highLight": "Polymer, Angular, NodeJs, MongoDB & AWS",
+      "highLightIcon": "code",
+      "duration": "Until July 2017",
+      "icon": "work"
+    },
+    {
+      "year": "2014",
+      "title": "Junior Fullstack Developer",
+      "location": "TriboTV (Madrid)",
+      "highLight": "PHP, MySql, CSS, JavaScript & Java",
+      "highLightIcon": "code",
+      "duration": "Until November 2014",
+      "icon": "work"
+    },
+    {
+      "year": "2014",
+      "title": "Selected for 1st SM edition",
+      "location": "Startups Mansion (New York, US)",
+      "highLight": "30 Entepreneurs living 3 months in NYC",
+      "highLightIcon": "info",
+      "duration": "Until December 2014",
+      "icon": "award"
+    },
+    {
+      "year": "2013",
+      "title": "Junior Fullstack Developer",
+      "location": "Homelyst (Valencia)",
+      "highLight": "PHP, MySql, CSS & JavaScript",
+      "highLightIcon": "code",
+      "duration": "Until January 2015",
+      "icon": "work"
+    },
+    {
+      "year": "2013",
+      "title": "Co-founder & Developer",
+      "location": "Interacis (Valencia)",
+      "highLight": "PHP, MySql, CSS & JavaScript",
+      "highLightIcon": "code",
+      "duration": "Until January 2017",
+      "icon": "work"
+    },
+    {
+      "year": "2012",
+      "title": "Co-founder & Developer",
+      "location": "Sopcial S.L. (Valencia)",
+      "highLight": "PHP, MySql, CSS & Jquery",
+      "highLightIcon": "code",
+      "duration": "Until September 2013",
+      "icon": "work"
+    },
+    {
+      "year": "2012",
+      "title": "Accelerator Program Winners",
+      "location": "Business Booster (Valencia)",
+      "highLight": "Selected with our startup \"Sopcial\"",
+      "highLightIcon": "code",
+      "duration": "Until february 2013",
+      "icon": "award"
+    },
+    {
+      "year": "2010",
+      "title": "Founder & Developer",
+      "location": "Tuintra (Valencia)",
+      "highLight": "PHP, MySql, CSS & Jquery",
+      "highLightIcon": "code",
+      "duration": "Current",
+      "icon": "work"
+    }
+  ],
   "languages": [
     {
       "name": "Spanish",
@@ -200,70 +213,74 @@ export default {
     }
   ],
   "skills": {
-    "technical": [
-      {
-        "name": "JavaScript",
-        "percent": "90"
-      },
-      {
-        "name": "PHP",
-        "percent": "80"
-      },
-      {
-        "name": "CSS - SASS / LESS",
-        "percent": "70"
-      },
-      {
-        "name": "NoSql (MongoDB)",
-        "percent": "90"
-      },
-      {
-        "name": "RelDB (MySql)",
-        "percent": "90"
-      },
-      {
-        "name": "TDD - Jasmine / Mocha",
-        "percent": "60"
-      },
-      {
-        "name": "Git",
-        "percent": "90"
-      },
-      {
-        "name": "C.I. (Jenkins)",
-        "percent": "70"
-      },
-      {
-        "name": "AWS",
-        "percent": "60"
-      }
-    ],
-    "framework": [
-      {
-        "name": "Polymer (JavaScript)",
-        "percent": "90"
-      },
-      {
-        "name": "React (JavaScript)",
-        "percent": "80"
-      },
-      {
-        "name": "Angular 1.5 (JavaScript)",
-        "percent": "90"
-      },
-      {
-        "name": "NodeJS (JavaScript)",
-        "percent": "70"
-      },
-      {
-        "name": "Vue (JavaScript)",
-        "percent": "50"
-      },
-      {
-        "name": "Laravel (PHP)",
-        "percent": "60"
-      }
-    ],
+    "technical": {
+      "data": [
+        {
+          "name": "JavaScript",
+          "percent": "90"
+        },
+        {
+          "name": "PHP",
+          "percent": "80"
+        },
+        {
+          "name": "CSS - SASS / LESS",
+          "percent": "70"
+        },
+        {
+          "name": "NoSql (MongoDB)",
+          "percent": "90"
+        },
+        {
+          "name": "RelDB (MySql)",
+          "percent": "90"
+        },
+        {
+          "name": "TDD - Jasmine / Mocha",
+          "percent": "60"
+        },
+        {
+          "name": "Git",
+          "percent": "90"
+        },
+        {
+          "name": "C.I. (Jenkins)",
+          "percent": "70"
+        },
+        {
+          "name": "AWS",
+          "percent": "60"
+        }
+      ]
+    },
+    "framework": {
+      "data": [
+        {
+          "name": "Polymer (JavaScript)",
+          "percent": "90"
+        },
+        {
+          "name": "React (JavaScript)",
+          "percent": "80"
+        },
+        {
+          "name": "Angular 1.5 (JavaScript)",
+          "percent": "90"
+        },
+        {
+          "name": "NodeJS (JavaScript)",
+          "percent": "70"
+        },
+        {
+          "name": "Vue (JavaScript)",
+          "percent": "50"
+        },
+        {
+          "name": "Laravel (PHP)",
+          "percent": "60"
+        }
+      ]
+    },
     "misc": [
       {
         "name": "Agile (Scrum) PSMI Cert",
@@ -337,5 +354,23 @@ export default {
       "mainFront": "PHP",
       "mainBack": "PHP"
     }
-  ]
+  ],
+  "profile": [
+    "-"
+  ],
+  "personal": {
+    "data": [
+      "Jorge Martín Martí",
+      "03 - 03 - 1987",
+      "Valencia"
+    ]
+  },
+  "certificates": [
+    {
+      "year": "2004",
+      "title": "Monitor de tiempo libre",
+      "subTitle": [ "F.H.C.V" ]
+    }
+  ],
+  "software": {},
 }

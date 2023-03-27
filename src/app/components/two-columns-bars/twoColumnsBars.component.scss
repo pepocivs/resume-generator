@@ -1,8 +1,8 @@
 .info-block {
   clear: both;
+  margin: 20px;
 }
 .row {
-  border-bottom: 1px dotted #458299;
   height: 8px;
   div {
     color: #333333;
@@ -22,7 +22,7 @@
     top: -24px;
   }
   .title, .value {
-    font-size: 11px;
+    font-size: 13px;
   }
   .title.big {
     width: 60%;

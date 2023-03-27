@@ -1,0 +1,31 @@
+/* Header */
+.resume-header {
+  display: grid; 
+  grid-template-columns: 2fr 1fr; 
+  gap: 0px 0px;
+  padding: 25px;
+  .image-name-container {
+    display: flex;
+    align-self: center;
+    .header-content {
+      padding: 0px 60px;
+      align-self: center;
+    }
+    .resume-name {
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 0px;
+      text-transform: uppercase;
+    }
+    .resume-title {
+      font-size: 16px;
+      line-height: 0px;
+      text-transform: uppercase;
+    }
+    .circle-img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+  }
+}

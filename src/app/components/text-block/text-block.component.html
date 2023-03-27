@@ -1,5 +1,5 @@
 <div class="text-block">
-  <h1>{{ title }}</h1>
+  <h1 [ngClass]="{'no-title': noTitle === 'true'}">{{ title }}</h1>
   <div class="row-content">
     <div *ngFor="let row of text">
       <div class="row" [innerHTML]="row"></div>

@@ -5,6 +5,20 @@
     text-align: justify;
 }
 
+.no-title {
+    display: none;
+
+}
+.reverse {
+    flex-flow: row-reverse;
+    column-gap: 17px;
+    height: 28px;
+}
+
+.color-blue {
+    filter: invert(34%) sepia(62%) saturate(635%) hue-rotate(167deg) brightness(88%) contrast(94%);
+}
+
 .two-column-container, .two-column-icon-container {
     display: flex;
     align-items: center;

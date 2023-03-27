@@ -1,0 +1,25 @@
+<resume-structure [legend]="resumeData.legend"></resume-structure>
+<profile-header [data]="resumeData"></profile-header>
+<div class="resume-content">
+  <div class="resume-column column-left">
+    <info-block title="Contact" [info]="resumeData.contact"></info-block>
+    <resume-timeline title="Education" [timeLineArray]="resumeData.timeline.education"></resume-timeline>
+    <br />
+    <br />
+    <info-block title="Languages" [percent]="true" [info]="resumeData.languages"></info-block>
+    <br />
+    <info-block title="Technical Skills" [percent]="true" [info]="resumeData.skills.technical"></info-block>
+    <br />
+    <info-block title="Framework Skills" [percent]="true" [info]="resumeData.skills.framework"></info-block>
+  </div>
+  <div class="resume-column column-middle">
+    <resume-timeline title="Timeline" [timeLineArray]="resumeData.timeline.experience"></resume-timeline>
+  </div>
+  <div class="resume-column column-right">
+    <text-block title="About Me" [text]="resumeData.aboutMe"></text-block>
+    <projects-block title="Micro Projects" [projects]="resumeData.microProjects"></projects-block>
+    <br />
+    <info-block title="Misc Skills" [percent]="true" [info]="resumeData.skills.misc"></info-block>
+    <social-block [background]="resumeData.background"></social-block>
+  </div>
+</div>

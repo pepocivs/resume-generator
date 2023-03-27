@@ -1,13 +1,12 @@
 export default {
-  "template": 'arts',
-  "type": 'artistics',
+  "template": 'default',
   "fullName": "Sergio Olmeda",
   "picture": "https://es.gravatar.com/userimage/198969001/5cb06dfec1883cc56794d2cd537f4d24.jpg?size=600",
   "aboutMe": [
-    "Debido a mi formación, considero muy importante el valor del diseño y la creatividad. Por tanto, valoro trabajar en una empresa que se dedica al diseño aplicado al mercado textil y que ostenta una posición internacional en moda y tendencias."
+    "Durante mi formación he desarrollado gran interés por los espacios y el interiorismo. Disfruto escuchando las necesidades particulares de la gente y pudiendo mostrarles las posibilidades que puede llegar a tener una vivienda. Para ello, tomo mediciones y desarrollo planos 3D que permiten a los clientes visualizar distintas distribuciones y familiarizarse con el domicilio en cuestión."
   ],
   "profile": [
-    "Actualmente, me encuentro en búsqueda activa de empleo y me interesa adquirir experiencia en el mundo laboral.  En cuanto a mis aptitudes, soy organizado y metódico, considero muy importante la buena comunicación y el trabajo en equipo así como la productividad y el desarrollo personal."
+    "Actualmente, me encuentro en búsqueda activa de empleo y me interesa adquirir experiencia en el mundo laboral.  En cuanto a mis aptitudes, soy organizado, metódico y puntual, considero muy importante la buena comunicación y el trabajo en equipo así como la productividad y el desarrollo personal."
   ],
   "personal": {
     "data": [

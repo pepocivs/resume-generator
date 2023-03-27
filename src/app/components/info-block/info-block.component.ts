@@ -7,15 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 
 export class InfoBlockComponent {
-  objectKeys = Object.keys;
-  
-  keysTranslator = {
-    "phone": "Mobile",
-    "email": "Email",
-    "skype": "Skype",
-    "socialNetworks": "Social networks",
-    "address": "Address"
-  }; 
   @Input() info: object;
   @Input() percent: boolean;
   @Input() title: string;

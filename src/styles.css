@@ -19,6 +19,18 @@
   src: url('./assets/fonts/GOTHICB.TTF');
   font-weight: bold;
 }
+.two-columns-primary-color {
+  color: #151515;
+}
+
+.two-columns-secondary-color {
+  color: #4f74ba; 
+}
+
+.two-columns-third-color {
+  color: #22639d;
+}
+
 
 body {
   margin: 0px;

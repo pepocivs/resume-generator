@@ -9,4 +9,5 @@ import { Component, Input } from '@angular/core';
 export class TextBlockComponent {
   @Input() title: string;
   @Input() text: object;
+  @Input() noTitle: Boolean;
 }

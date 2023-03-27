@@ -8,7 +8,7 @@ export default {
     "En mis prácticas laborales en Reino Unido, trabajé en una empresa donde desarrollé habilidades técnicas en hardware y software, mientras resolvía problemas técnicos en inglés. Después de mis prácticas, trabajé en una Apple Premium Reseller en Ibiza, donde adquirí experiencia en reparación y montaje de ordenadores de la marca Apple, atención al cliente y venta de productos.",
     "Actualmente, estoy completando un Grado Superior en Aplicaciones Web  Multiplataforma y también estoy llevando a cabo un curso de Kotlin. Soy una  persona versátil y creativa, siempre buscando soluciones innovadoras a  cualquier tipo de problema. Me emociona mucho el mundo de la tecnología y  estoy dispuesto a seguir aprendiendo y creciendo en mi carrera."
   ],
-  "legend": "",
+  "legend": "* El 100% de las barras de habilidad representan mi conocimiento en relacción a mi otro conocimiento, esto no representa el 100% del conocimiento mundial ;) [No he inventado Linux]",
   "background": [],
   "contact": {
     "type": 'two-column-icon',
@@ -155,44 +155,46 @@ export default {
     },
   ],
   "skills": {
-    "technical": [
-      {
-        "name": "Java ",
-        "percent": "70"
-      },
-      {
-        "name": "S.O. Linux",
-        "percent": "80"
-      },
-      {
-        "name": "S.O. MacOS",
-        "percent": "80"
-      },
-      {
-        "name": "S.O. Windows",
-        "percent": "80"
-      },
-      {
-        "name": "HTML",
-        "percent": "50"
-      },
-      {
-        "name": "CSS",
-        "percent": "50"
-      },
-      {
-        "name": "Python",
-        "percent": "30"
-      },
-      {
-        "name": "Libre office",
-        "percent": "100"
-      },
-      {
-        "name": "Tecnologías Open Source",
-        "percent": "100"
-      },
-    ],
+    "technical": {
+        "data": [
+        {
+          "name": "Java ",
+          "percent": "70"
+        },
+        {
+          "name": "S.O. Linux",
+          "percent": "80"
+        },
+        {
+          "name": "S.O. MacOS",
+          "percent": "80"
+        },
+        {
+          "name": "S.O. Windows",
+          "percent": "80"
+        },
+        {
+          "name": "HTML",
+          "percent": "50"
+        },
+        {
+          "name": "CSS",
+          "percent": "50"
+        },
+        {
+          "name": "Python",
+          "percent": "30"
+        },
+        {
+          "name": "Libre office",
+          "percent": "100"
+        },
+        {
+          "name": "Tecnologías Open Source",
+          "percent": "100"
+        },
+      ]
+    },
     "framework": [],
     "misc": [
       {

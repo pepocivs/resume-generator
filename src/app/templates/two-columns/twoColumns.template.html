@@ -23,7 +23,7 @@
     <div class="two-columns">
         <div class="column">
             <dashed-title color="#4f74ba" title="Habilidades" icon="code"></dashed-title>
-            <two-columns-bars [percent]="true" [info]="resumeData.skills.technical"></two-columns-bars>
+            <two-columns-bars [percent]="true" [info]="resumeData.skills.technical.data"></two-columns-bars>
         </div>
         <div class="column">
             <dashed-title color="#4f74ba" title="Habilidades sociales" icon="softSkills"></dashed-title>
@@ -31,3 +31,5 @@
         </div>
     </div>
 </div>
+
+<div class="footer-legend">{{resumeData.legend}}</div>

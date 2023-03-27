@@ -31,18 +31,22 @@ export default {
     "data": [
       {
         "name": "Mobile",
+        "icon": "phone",
         "value": "+34 655 358 208"
       },
       {
         "name": "Email",
+        "icon": "email",
         "value": "tcbpepo@gmail.com"
       },
       {
         "name": "Social networks",
+        "icon": "socialNetwrok",
         "value": "@pepocivs"
       },
       {
         "name": "Address",
+        "icon": "address",
         "value": "C/. Isla Cabrera, 8"
       }
     ]

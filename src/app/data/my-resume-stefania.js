@@ -1,4 +1,5 @@
 export default {
+  "template": "timeline",
   "fullName": "Neila E. Torres Panez",
   "title": "Software Engineer | Frontend Developer",
   "picture": "https://secure.gravatar.com/avatar/a374670c7665ca0202a892010dee4e43?size=1024",

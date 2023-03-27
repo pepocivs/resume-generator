@@ -4,6 +4,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+/** Templates */
+import { TimelineTemplate } from './templates/timeline/timeline.template';
+import { ArtisticTemplate } from './templates/artistic/artistic.template';
+import { DefaultTemplate } from './templates/default/default.template';
+
+/** Components */
 import { ArtStructureComponent } from './components/art-template/structure/structure.component';
 import { ArtProfileHeaderComponent } from './components/art-template/profile-header/profile-header.component';
 import { ProfileHeaderComponent } from './components/profile-header/profile-header.component';
@@ -20,6 +26,9 @@ import { SocialBlockComponent } from './components/social-block/social-block.com
 @NgModule({
   declarations: [
     AppComponent,
+    TimelineTemplate,
+    ArtisticTemplate,
+    DefaultTemplate,
     ProfileHeaderComponent,
     StructureComponent,
     ArtStructureComponent,
@@ -31,7 +40,7 @@ import { SocialBlockComponent } from './components/social-block/social-block.com
     HalfColumnBlockComponent,
     TextBlockComponent,
     ProjectsBlockComponent,
-    SocialBlockComponent
+    SocialBlockComponent,
   ],
   imports: [
     BrowserModule

@@ -1,5 +1,5 @@
 export default {
-  "template": "tech",
+  "template": "timeline",
   "fullName": "Jorge Martín",
   "title": "IT Developer",
   "picture": "https://en.gravatar.com/userimage/100835827/de3203fee4bea501f3481fb765d14851.jpg?size=600",

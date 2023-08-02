@@ -8,17 +8,35 @@ Hola Mundo
     <div class="separator"></div>
     <simple-block title="Programas" [info]="resumeData.software"></simple-block>
     <div class="separator"></div>
+    <ng-template [ngIf]="resumeData.languagesRight?.data && resumeData.languagesRight?.data.length > 0">
+      <simple-block title="Idiomas Acreditados" [info]="resumeData.languagesRight"></simple-block>
+      <div class="separator"></div>
+    </ng-template>
     <simple-block title="Contacto" [info]="resumeData.contact"></simple-block>
   </div>
   <div class="resume-column column-right">
-    <text-block title="Perfil" [text]="resumeData.profile"></text-block>
-    <div class="separator"></div>
-    <text-block title="Sobre mí" [text]="resumeData.aboutMe"></text-block>
-    <div class="separator"></div>
-    <column-block title="Estudios" [info]="resumeData.education"></column-block>
-    <div class="separator"></div>
-    <column-block title="Certificados" [info]="resumeData.certificates"></column-block>
-    <div class="separator"></div>
-    <column-block title="Idiomas" [info]="resumeData.languages" top="spacing"></column-block>
+    <ng-template [ngIf]="resumeData.profile && resumeData.profile.length > 0">
+      <text-block title="Perfil" [text]="resumeData.profile"></text-block>
+      <div class="separator"></div>
+    </ng-template>
+    <ng-template [ngIf]="resumeData.aboutMe && resumeData.aboutMe.length > 0">
+      <text-block title="Sobre mí" [text]="resumeData.aboutMe"></text-block>
+    </ng-template>
+    <ng-template [ngIf]="resumeData.experience && resumeData.experience.length > 0">
+      <div class="separator"></div>
+      <column-block title="Experiencia" [info]="resumeData.experience"></column-block>
+    </ng-template>
+    <ng-template [ngIf]="resumeData.education && resumeData.education.length > 0">
+      <div class="separator"></div>
+      <column-block title="Estudios" [info]="resumeData.education"></column-block>
+    </ng-template>
+    <ng-template [ngIf]="resumeData.certificates && resumeData.certificates.length > 0">
+      <div class="separator"></div>
+      <column-block title="Certificados" [info]="resumeData.certificates"></column-block>
+    </ng-template>
+    <ng-template [ngIf]="resumeData.languages && resumeData.languages.length > 0">
+      <div class="separator"></div>
+      <column-block title="Idiomas" [info]="resumeData.languages" top="spacing"></column-block>
+    </ng-template>
   </div>
 </div>

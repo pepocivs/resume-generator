@@ -1,12 +1,12 @@
 export default {
-  "template": 'artistic',
+  "template": 'default',
   "fullName": "Sergio Olmeda",
   "picture": "https://es.gravatar.com/userimage/198969001/5cb06dfec1883cc56794d2cd537f4d24.jpg?size=600",
   "aboutMe": [
-    "Durante mi formación he desarrollado gran interés por los espacios y el interiorismo. Disfruto escuchando las necesidades particulares de la gente y pudiendo mostrarles las posibilidades que puede llegar a tener una vivienda. Para ello, tomo mediciones y desarrollo planos 3D que permiten a los clientes visualizar distintas distribuciones y familiarizarse con el domicilio en cuestión."
+    "Actualmente, me encuentro en búsqueda activa de empleo. En cuanto a mis aptitudes, soy organizado y metódico, considero muy importante la buena comunicación y el trabajo en equipo así como la productividad y el desarrollo personal.",
   ],
   "profile": [
-    "Actualmente, me encuentro en búsqueda activa de empleo y me interesa adquirir experiencia en el mundo laboral.  En cuanto a mis aptitudes, soy organizado, metódico y puntual, considero muy importante la buena comunicación y el trabajo en equipo así como la productividad y el desarrollo personal."
+    "Debido a mi formación, doy mucha importancia a los procesos de trabajo y el aprendizaje, considerándolo crucial no sólo para el ámbito profesional, sino también el personal. Soy una persona responsable y puntual que pone esfuerzo en lo que hace para obtener buenos resultados."
   ],
   "personal": {
     "data": [
@@ -33,6 +33,10 @@ export default {
       {
         "name": "Illustrator",
         "value": "Medio"
+      },
+      {
+        "name": "Blender",
+        "value": "Medio"
       }
     ],
   },
@@ -48,12 +52,12 @@ export default {
         "value": "sergio.oolmeda@gmail.com"
       },
       {
-        "icon": "socialNetworks",
-        "value": "@sergiuset"
-      },
-      {
         "icon": "address",
         "value": "Avenida Barcelona 92, 57"
+      },
+      {
+        "icon": "socialNetworks",
+        "value": "@sergiuset"
       },
       {
         "icon": "website",
@@ -73,7 +77,50 @@ export default {
       "subTitle": [ "Universitat Politècnica de València" ]
     }
   ],
+  "experience": [
+    {
+      "year": "2022-2023",
+      "title": "Responsable de exposiciones en centro de arte",
+      "location": "La Trini Espai d'Art (Valencia)",
+      "highLight": "",
+      "highLightIcon": "",
+      "duration": "",
+      "icon": ""
+    },
+    {
+      "year": "2021-2022",
+      "title": "Editor de contenidos de Tecnología y Entretenimiento",
+      "location": "Onibi (Valencia)",
+      "highLight": "",
+      "highLightIcon": "",
+      "duration": "",
+      "icon": ""
+    },
+    {
+      "year": "2019-2022",
+      "title": "Auxiliar de mantenimiento y limpieza en taller mecánico.",
+      "location": "Talleres Manolo (Albal)",
+      "highLight": "",
+      "highLightIcon": "",
+      "duration": "",
+      "icon": ""
+    },
+    {
+      "year": "2019-2020",
+      "title": "Profesor Particular de Educación Secundaria (ESO)",
+      "location": "I.E.S. Albal",
+      "highLight": "",
+      "highLightIcon": "",
+      "duration": "",
+      "icon": ""
+    },
+  ],
   "certificates": [
+    {
+      "year": "2019",
+      "title": "permiso de conducir B",
+      "subTitle": [ "Vehículo propio" ]
+    },
     {
       "year": "2016",
       "title": "Certificado de manipulador de alimentos",
@@ -150,6 +197,7 @@ export default {
       ]
     }
   ],
+  /*
   "languages": [
     {
       "year": "2021",
@@ -176,6 +224,24 @@ export default {
       ]
     }
   ],
+  */
+  "languagesRight": {
+    "type": 'two-column',
+    "data": [
+      {
+        "name": "Inglés",
+        "value": "B2"
+      },
+      {
+        "name": "Valenciano",
+        "value": "Mitjà"
+      },
+      {
+        "name": "Francés",
+        "value": "A2"
+      }
+    ]
+  },
   "realLanguages": [
     {
       "year": "2021",

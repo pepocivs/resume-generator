@@ -7,6 +7,13 @@
         <div class="text-{{indexOfelement}}-{{generalIndex}}" [innerHTML]="subTitle"></div>
         <br />
       </div>
+      <ng-template [ngIf]="row.location && row.location.length > 0">
+        <div class="location-{{generalIndex}}" [innerHTML]="row.location"></div>
+      </ng-template>
+      <ng-template [ngIf]="row.highLight && row.highLight.length > 0">
+        <div class="highlight-{{generalIndex}}" [innerHTML]="row.highLight"></div>
+        <br />
+      </ng-template>
       <div class="text" [innerHTML]="row.year"></div>
     </div>
   </div>

@@ -2,7 +2,7 @@ export default {
   "template": "two-columns",
   "fullName": "Carlos Beltran",
   "title": "IT Developer",
-  "picture": "https://media.licdn.com/dms/image/C4E03AQHc2fL1EwWm4Q/profile-displayphoto-shrink_800_800/0/1651575435198?e=1684972800&v=beta&t=vqOXPFgQQMLxSSHkuZ2Iq1bnW6t_WuOGzcH7DwvxevE",
+  "picture": "https://www.gravatar.com/avatar/7dde8b0d2ce853f373d0f46aece57fd4?s=1000",
   "aboutMe": [
     "Hola, soy Fran y me apasiona la tecnología y la informática. Tengo experiencia en asistencia informática, reparación y montaje de ordenadores, y desarrollo de aplicaciones web. También realicé prácticas laborales en Reino Unido durante 4 meses, donde mejoré mis habilidades técnicas y lingüísticas en inglés.",
     "En mis prácticas laborales en Reino Unido, trabajé en una empresa donde desarrollé habilidades técnicas en hardware y software, mientras resolvía problemas técnicos en inglés. Después de mis prácticas, trabajé en una Apple Premium Reseller en Ibiza, donde adquirí experiencia en reparación y montaje de ordenadores de la marca Apple, atención al cliente y venta de productos.",
@@ -106,6 +106,7 @@ export default {
       "duration": "-",
       "icon": "work"
     },
+    /*
     {
       "year": "-",
       "title": "Cuidador de personas con discapacidad",
@@ -126,6 +127,7 @@ export default {
       "duration": "-",
       "icon": "work"
     },
+    */
   ],
   "languages": [
     {
@@ -145,13 +147,13 @@ export default {
     },
     {
       "name": "Inglés",
-      "level": "B2/C1",
+      "level": "B2",
       "percent": "75"
     },
     {
       "name": "Rumano",
       "level": "B1/B2",
-      "percent": "60"
+      "percent": "55"
     },
   ],
   "skills": {
@@ -163,16 +165,18 @@ export default {
         },
         {
           "name": "S.O. Linux",
-          "percent": "80"
+          "percent": "85"
         },
         {
           "name": "S.O. MacOS",
-          "percent": "80"
+          "percent": "70"
         },
+        /*
         {
           "name": "S.O. Windows",
           "percent": "80"
         },
+        */
         {
           "name": "HTML",
           "percent": "50"
@@ -187,7 +191,7 @@ export default {
         },
         {
           "name": "Libre office",
-          "percent": "100"
+          "percent": "90"
         },
         {
           "name": "Tecnologías Open Source",
@@ -197,6 +201,10 @@ export default {
     },
     "framework": [],
     "misc": [
+      {
+        "name": "Disponibilidad geográfica y horaria",
+        "percent": "100"
+      },
       {
         "name": "Trabajo en equipo",
         "percent": "100"
@@ -219,11 +227,11 @@ export default {
       },
       {
         "name": "Resolución de problemas",
-        "percent": "100"
+        "percent": "90"
       },
       {
         "name": "Tratamiento confidencial de la información",
-        "percent": "100"
+        "percent": "90"
       },
     ]
   },

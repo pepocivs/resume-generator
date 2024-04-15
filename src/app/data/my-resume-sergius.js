@@ -6,7 +6,7 @@ export default {
     "Actualmente, me encuentro en búsqueda activa de empleo. En cuanto a mis aptitudes, soy organizado y metódico, considero muy importante la buena comunicación y el trabajo en equipo así como la productividad y el desarrollo personal.",
   ],
   "profile": [
-    "Debido a mi formación, doy mucha importancia a los procesos de trabajo y el aprendizaje, considerándolo crucial no sólo para el ámbito profesional, sino también el personal. Soy una persona responsable y puntual que pone esfuerzo en lo que hace para obtener buenos resultados."
+    "Por mi formación en artes, valoro los entornos laborales que despierten una capacidad creativa. Estoy familiarizado con conceptos como el color, las formas y la configuración de los espacios, además de poseer habilidad con herramientas informatizadas de diseño como Photoshop e InDesign y fotografía. A nivel personal, el diseño de espacios, la decoración y el interiorismo son áreas que suscitan mi interés y en las cuales me siento cómodo."
   ],
   "personal": {
     "data": [
@@ -53,7 +53,7 @@ export default {
       },
       {
         "icon": "address",
-        "value": "Avenida Barcelona 92, 57"
+        "value": "Avenida Barcelona-92, 57"
       },
       {
         "icon": "socialNetworks",
@@ -78,6 +78,24 @@ export default {
     }
   ],
   "experience": [
+    {
+      "year": "2023-2024",
+      "title": "Personal de equipo en restauración",
+      "location": "Restaurante McDonald's (Albal)",
+      "highLight": "",
+      "highLightIcon": "",
+      "duration": "",
+      "icon": ""
+    },
+    {
+      "year": "2023-2024",
+      "title": "Profesor Particular de Inglés B2",
+      "location": "Torrent",
+      "highLight": "",
+      "highLightIcon": "",
+      "duration": "",
+      "icon": ""
+    },
     {
       "year": "2022-2023",
       "title": "Responsable de exposiciones en centro de arte",

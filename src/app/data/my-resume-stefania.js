@@ -2,13 +2,15 @@ export default {
   "template": "timeline",
   "fullName": "Neila E. Torres Panez",
   "title": "Software Engineer | Frontend Developer",
-  "picture": "https://secure.gravatar.com/avatar/a374670c7665ca0202a892010dee4e43?size=1024",
+  "picture":
+    "https://secure.gravatar.com/avatar/a374670c7665ca0202a892010dee4e43?size=1024",
   "aboutMe": [
     "Enthusiastic, diligent and detail-oriented Software Engineer eager to contribute to team success.",
     "Strong commitment to collaboration and solutions-oriented problem-solving. Implements with various web design frameworks to develop custom-crafted, customer-focused websites and designs.Dedicated to writing superior quality code and building a great software base on maximized user experience, usability and performance.",
-    "<strong>\"you learn what you teach and own what you share.\"</strong>"
+    '<strong>"you learn what you teach and own what you share."</strong>'
   ],
-  "legend": "* 100% of the skills bars represents my knowledge in relation with my other knowledge, it doesn't represent 100% of the worldwide knowledge :) [I didn't not create JavaScript]",
+  "legend":
+    "* 100% of the skills bars represents my knowledge in relation with my other knowledge, it doesn't represent 100% of the worldwide knowledge :) [I didn't not create JavaScript]",
   "background": [
     {
       "name": "Github",
@@ -22,88 +24,115 @@ export default {
     }
   ],
   "contact": {
-    "phone": "+34 603 151 135",
-    "email": "ne.torrespanez@gmail.com",
-    "socialNetworks": "@netorrespanez",
-    "address": "C/. Lorenzo Gonzalez, Madrid"
-  },
-  "timeline": {
-    "education": [
+    "type": 'two-column',
+    "data": [
       {
-        "year": "2021",
-        "title": "European Master in Software Engineering",
-        "location": "Universidad Politécnica de Madrid (Madrid)",
-        "highLight": "High academic performance group",
-        "highLightIcon": "work",
-        "duration": "Until July 2023",
-        "icon": "academic"
+        "name": "Mobile",
+        "icon": "phone",
+        "value": "+34 603 151 135"
       },
       {
-        "year": "2012",
-        "title": "Bachelor's Degree in Computer Science",
-        "location": "Universidad Politécnica de Madrid (Madrid)",
-        "highLight": "High academic performance group",
-        "highLightIcon": "work",
-        "duration": "Until July 2017",
-        "icon": "academic"
-      }
-    ],
-    "experience": [
-      {
-        "year": "2022",
-        "title": "Senior Software Engineer - Front End Dev",
-        "location": "nc43tech - NextChance Invest (Madrid)",
-        "highLight": "Nuxt.js · JavaScript · Vue.js",
-        "highLightIcon": "code",
-        "duration": "Current",
-        "icon": "work"
+        "name": "Email",
+        "icon": "email",
+        "value": "ne.torrespanez@gmail.com"
       },
       {
-        "year": "2021",
-        "title": "Software Engineer - Accessibility Advocate",
-        "location": "Capgemini Engineering (Madrid)",
-        "highLight": "Develop accessible, user-oriented, cross-platform applications. Develop accessibility reviews of applications. Make talks and training on web accessibility",
-        "duration": "Until March 2022",
-        "icon": "work"
+        "name": "Social networks",
+        "icon": "socialNetwrok",
+        "value": "@netorrespanez"
       },
       {
-        "year": "2019",
-        "title": "Web Development Teacher",
-        "location": "Fictizia,(Madrid)",
-        "highLight": "JavaScript and FrontEnd Frameworks (Vue)",
-        "highLightIcon": "code",
-        "duration": "Until July 2021",
-        "icon": "work"
-      },
-      {
-        "year": "2018",
-        "title": "Senior Frontend Developer",
-        "location": "SopraSteria [BBVA-GloMo] (Madrid)",
-        "highLight": "JavaScript (ES6), Polymer (Cells)",
-        "highLightIcon": "code",
-        "duration": "Until December 2019",
-        "icon": "work"
-      },
-      {
-        "year": "2017",
-        "title": "Data Analyst",
-        "location": "Iberia Airlines (Madrid)",
-        "highLight": "R Studio",
-        "highLightIcon": "code",
-        "duration": "Until July 2018",
-        "icon": "work"
-      },
-      {
-        "year": "2016",
-        "title": "Chatbot Developer",
-        "location": "Commons.fm (Madrid)",
-        "highLight": "JavaScript (ES6), NodeJs",
-        "highLightIcon": "code",
-        "duration": "Until July 2017",
-        "icon": "work"
+        "name": "Address",
+        "icon": "address",
+        "value": "C/. Lorenzo Gonzalez, 18"
       }
     ]
   },
+  "education": [
+    {
+      "year": "2021",
+      "title": "European Master in Software Engineering",
+      "location": "Universidad Politécnica de Madrid (Madrid)",
+      "highLight": "High academic performance group",
+      "highLightIcon": "work",
+      "duration": "Until July 2023",
+      "icon": "academic"
+    },
+    {
+      "year": "2012",
+      "title": "Bachelor's Degree in Computer Science",
+      "location": "Universidad Politécnica de Madrid (Madrid)",
+      "highLight": "High academic performance group",
+      "highLightIcon": "work",
+      "duration": "Until July 2017",
+      "icon": "academic"
+    }
+  ],
+  "experience": [
+    {
+      "year": "2023",
+      "title": "Lead Software Engineer",
+      "location": "Xitaso GmbH",
+      "highLight": "Vue.js and TypeScript",
+      "highLightIcon": "code",
+      "duration": "Current",
+      "icon": "work"
+    },
+    {
+      "year": "2022",
+      "title": "Senior Software Engineer - FrontEnd Dev",
+      "location": "nc43tech - NextChance Invest (Madrid)",
+      "highLight": "Nuxt.js · JavaScript · Vue.js",
+      "highLightIcon": "code",
+      "duration": "Until April 2023",
+      "icon": "work"
+    },
+    {
+      "year": "2021",
+      "title": "Software Engineer - Accessibility Advocate",
+      "location": "Capgemini Engineering (Madrid)",
+      "highLight":
+        "Develop accessible, user-oriented, cross-platform applications.<br />Develop accessibility reviews of applications.<br />Make talks and training on web accessibility",
+      "duration": "Until April 2022",
+      "icon": "work"
+    },
+    {
+      "year": "2019",
+      "title": "Web Development Teacher",
+      "location": "Fictizia,(Madrid)",
+      "highLight": "JavaScript and FrontEnd Frameworks",
+      "highLightIcon": "code",
+      "duration": "Until July 2021",
+      "icon": "work"
+    },
+    {
+      "year": "2018",
+      "title": "Senior Frontend Developer",
+      "location": "SopraSteria [BBVA-GloMo] (Madrid)",
+      "highLight": "JavaScript (ES6), Polymer (Cells)",
+      "highLightIcon": "code",
+      "duration": "Until December 2019",
+      "icon": "work"
+    },
+    {
+      "year": "2017",
+      "title": "Data Analyst",
+      "location": "Iberia Airlines (Madrid)",
+      "highLight": "R Studio",
+      "highLightIcon": "code",
+      "duration": "Until July 2018",
+      "icon": "work"
+    },
+    {
+      "year": "2016",
+      "title": "Chatbot Developer",
+      "location": "Commons.fm (Madrid)",
+      "highLight": "JavaScript (ES6), NodeJs",
+      "highLightIcon": "code",
+      "duration": "Until July 2017",
+      "icon": "work"
+    }
+  ],
   "languages": [
     {
       "name": "Spanish",

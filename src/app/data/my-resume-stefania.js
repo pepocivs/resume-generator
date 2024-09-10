@@ -93,6 +93,7 @@ export default {
       "location": "Capgemini Engineering (Madrid)",
       "highLight":
         "Develop accessible, user-oriented, cross-platform applications.<br />Develop accessibility reviews of applications.<br />Make talks and training on web accessibility",
+      "highLightIcon": "code",
       "duration": "Until April 2022",
       "icon": "work"
     },
@@ -151,66 +152,70 @@ export default {
     }
   ],
   "skills": {
-    "technical": [
-      {
-        "name": "JavaScript",
-        "percent": "90"
-      },
-      {
-        "name": "MySql",
-        "percent": "80"
-      },
-      {
-        "name": "CSS - SASS / LESS",
-        "percent": "70"
-      },
-      {
-        "name": "NoSql (MongoDB)",
-        "percent": "90"
-      },
-      {
-        "name": "TDD - Chai / Mocha",
-        "percent": "60"
-      },
-      {
-        "name": "Git",
-        "percent": "90"
-      },
-      {
-        "name": "C.I. (Jenkins)",
-        "percent": "60"
-      },
-      {
-        "name": "R Studio",
-        "percent": "60"
-      }
-    ],
-    "framework": [
-      {
-        "name": "Polymer (JavaScript)",
-        "percent": "90"
-      },
-      {
-        "name": "React (JavaScript)",
-        "percent": "60"
-      },
-      {
-        "name": "Angular 1.5 (JavaScript)",
-        "percent": "60"
-      },
-      {
-        "name": "NodeJS (JavaScript)",
-        "percent": "70"
-      },
-      {
-        "name": "Vue (JavaScript)",
-        "percent": "90"
-      },
-      {
-        "name": "JAVA, J2EE (JMS, Java RMI)",
-        "percent": "60"
-      }
-    ],
+    "technical": {
+      "data": [
+        {
+          "name": "JavaScript",
+          "percent": "90"
+        },
+        {
+          "name": "MySql",
+          "percent": "80"
+        },
+        {
+          "name": "CSS - SASS / LESS",
+          "percent": "70"
+        },
+        {
+          "name": "NoSql (MongoDB)",
+          "percent": "90"
+        },
+        {
+          "name": "TDD - Chai / Mocha",
+          "percent": "60"
+        },
+        {
+          "name": "Git",
+          "percent": "90"
+        },
+        {
+          "name": "C.I. (Jenkins)",
+          "percent": "60"
+        },
+        {
+          "name": "R Studio",
+          "percent": "60"
+        }
+      ]
+    },
+    "framework": {
+      "data": [
+        {
+          "name": "Polymer (JavaScript)",
+          "percent": "90"
+        },
+        {
+          "name": "React (JavaScript)",
+          "percent": "60"
+        },
+        {
+          "name": "Angular 1.5 (JavaScript)",
+          "percent": "60"
+        },
+        {
+          "name": "NodeJS (JavaScript)",
+          "percent": "70"
+        },
+        {
+          "name": "Vue (JavaScript)",
+          "percent": "90"
+        },
+        {
+          "name": "JAVA, J2EE (JMS, Java RMI)",
+          "percent": "60"
+        }
+      ]
+    },
     "misc": [
       {
         "name": "Agile (Scrum)",

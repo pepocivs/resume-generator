@@ -3,7 +3,7 @@ export default {
   "fullName": "Sergio Olmeda",
   "picture": "https://es.gravatar.com/userimage/198969001/5cb06dfec1883cc56794d2cd537f4d24.jpg?size=600",
   "aboutMe": [
-    "Por mi formación, estoy acostumbrado a verme rodeado de una amplia variedad de materiales y conocer sus usos específicos. Es por esto que considero que mis conocimientos se podrían aplicar a una buena orientación de cara al cliente en el área de decoración, elementos dediseño y jardinería, aunque también estoy estoy abierto a valorar oportunidades que me permitan desarrollarme profesionalmente en otras áreas."
+    "Por mi formación, estoy acostumbrado a verme rodeado de una amplia variedad de materiales y conocer sus usos específicos. Es por esto que considero que mis conocimientos se podrían aplicar a una buena orientación de cara al cliente en el área de decoración, elementos de diseño y jardinería, aunque también estoy estoy abierto a valorar oportunidades que me permitan desarrollarme profesionalmente en otras áreas."
   ],
   "profile": [
     "Gracias a mis experiencias laborales anteriores, estoy acostumbrado al trato con el cliente y a orientarle según sus necesidades. Además, me considero una persona organizada y metódica, con una fuerte orientación hacia la buena comunicación, el trabajo en equipo, la productividad y el desarrollo personal."
@@ -12,7 +12,7 @@ export default {
     "data": [
       "Sergio Olmeda Murgui",
       "13 - 02 - 1999",
-      "Valencia"
+      "Torrent"
     ]
   },
   "software": {

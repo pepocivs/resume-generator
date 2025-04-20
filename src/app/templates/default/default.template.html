@@ -6,13 +6,14 @@ Hola Mundo
   <div class="resume-column column-left">
     <simple-block title="Personal" [info]="resumeData.personal"></simple-block>
     <div class="separator"></div>
+    <simple-block title="Contacto" [info]="resumeData.contact"></simple-block>
+    <div class="separator"></div>
     <simple-block title="Programas" [info]="resumeData.software"></simple-block>
     <div class="separator"></div>
     <ng-template [ngIf]="resumeData.languagesRight?.data && resumeData.languagesRight?.data.length > 0">
       <simple-block title="Idiomas Acreditados" [info]="resumeData.languagesRight"></simple-block>
-      <div class="separator"></div>
     </ng-template>
-    <simple-block title="Contacto" [info]="resumeData.contact"></simple-block>
+    
   </div>
   <div class="resume-column column-right">
     <ng-template [ngIf]="resumeData.profile && resumeData.profile.length > 0">

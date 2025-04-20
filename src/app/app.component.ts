@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import resumeData from './data/my-resume-stefania';
+import resumeData from './data/my-resume-sergius-leroy';
 
 @Component({
   selector: 'app-root',
